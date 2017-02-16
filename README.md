@@ -25,17 +25,14 @@ Mitigation strategy for dealing with the risk: We are going to divide work as we
 
 User stories:
 
-1. As a [student of age] who has worked all day today, I want more information on what bars my friends are at, so that I can go hang out    with them there. (High)
+1. As a new user of the app, I would like to login, so that I can begin to use the app. (Critical)
+2. As a new user of the app, I would like to connect via Facebook, so I will have an easier time finding friends. (High)
+3. As a user of the app, I would like to have the permissions the app needs to be explained to me, so I can better trust the app with my    information. (Med)
+4. As a user of the app, I would like to be able to add friends, to see who else is using the app. (Critical)
+5. As a user of the app, I would like to be able to see a visual mapping of the area around me, so I can better understand where I am.      (Critical)
+6. As a user of the app, I would like to be able to see things people want to share with me on said map, so that I can tie that            information to a location. (Critical)
+7. As a user of the app, I would like to be able to place those pins myself, and choose who I want to share them with. (Critical)
 
-2. As a [host for a party] happening later today, I want to let all my friends know about it, so I can avoid sending 20+ texts              individually or making a 20+ person group text. (Critical)
-
-3. As an [owner of a business], I want to tell the people nearby about my sales, so that my business can attract more customers. (Med)
-
-4. As a [person sitting home alone bored], I want to see what my friends are up to, so I can alleviate my boredom. (High)
-
-5. As a [person new to town], I want to see what kinds of things people are doing, so I can get out and meet new people. (Low)
-
-6. As an [active geocacher], I like showing off my finds, so that people know how good I am at it. (Nice-to-have)
 
 
 Methodology: Waterfall design process, Agile coding process
