@@ -42,4 +42,4 @@ Project Tracking software: Trello
 
 Link to project tracking software: https://trello.com/b/gLrBdsLX
 
-Project plan: created from your Project Tracking software. Copy-paste the plan (or screenshot of) from your project tracking software into the repository.
+Project plan: https://github.com/tyleralbee/SDMT-Semester-Project/blob/master/Trello.png
