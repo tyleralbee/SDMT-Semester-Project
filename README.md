@@ -1,7 +1,9 @@
 # SDMT-Semester-Project
 The ongoing process of the semester project for Software Development Methods and Tools
 
-Who: List of people on the team: Tyler Albee - tyleralbee
+Who: List of people on the team: 
+
+                                 Tyler Albee - tyleralbee
 
                                  Kyle Giacomini - suveck
                                  
