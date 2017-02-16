@@ -23,15 +23,16 @@ Risks: This project is a very large undertaking, and could certainly be biting o
 
 Mitigation strategy for dealing with the risk: We are going to divide work as well as we possibly can, and use all of the resources we                                                  have available to us here at CU to help us deal with problems we don't know how to solve. 
 
-User stories:
+User stories: 
+*Rankings are done in the Fibonacci scale, as done in the lab. 
 
-1. As a new user of the app, I would like to login, so that I can begin to use the app. (Critical)
-2. As a new user of the app, I would like to connect via Facebook, so I will have an easier time finding friends. (High)
-3. As a user of the app, I would like to have the permissions the app needs to be explained to me, so I can better trust the app with my    information. (Med)
-4. As a user of the app, I would like to be able to add friends, to see who else is using the app. (Critical)
-5. As a user of the app, I would like to be able to see a visual mapping of the area around me, so I can better understand where I am.      (Critical)
-6. As a user of the app, I would like to be able to see things people want to share with me on said map, so that I can tie that            information to a location. (Critical)
-7. As a user of the app, I would like to be able to place those pins myself, and choose who I want to share them with. (Critical)
+1. As a new user of the app, I would like to login, so that I can begin to use the app. (Critical) [1]
+2. As a new user of the app, I would like to connect via Facebook, so I will have an easier time finding friends. (High) [1]
+3. As a user of the app, I would like to have the permissions the app needs to be explained to me, so I can better trust the app with my    information. (Med) [1/2]
+4. As a user of the app, I would like to be able to add friends, to see who else is using the app. (Critical) [5]
+5. As a user of the app, I would like to be able to see a visual mapping of the area around me, so I can better understand where I am.      (Critical) [2]
+6. As a user of the app, I would like to be able to see things people want to share with me on said map, so that I can tie that            information to a location. (Critical) [34]
+7. As a user of the app, I would like to be able to place those pins myself, and choose who I want to share them with. (Critical) [21]
 
 
 
