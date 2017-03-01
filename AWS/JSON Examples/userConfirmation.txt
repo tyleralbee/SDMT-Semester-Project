@@ -1,0 +1,8 @@
+{
+  "operation": "userSignup",
+  "payload": {
+    "ClientId": "4gnc0gl0i7k40k2c3u61pej1qa",
+    "Username": "Cody",
+    "ConfirmationCode": "879901"
+  }
+}

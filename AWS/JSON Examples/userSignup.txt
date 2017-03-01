@@ -1,0 +1,22 @@
+{
+  "operation": "userSignup",
+  "payload": {
+    "ClientId": "4gnc0gl0i7k40k2c3u61pej1qa",
+    "Username": "Cody",
+    "Password": "Password123!",
+    "UserAttributes": [
+      {
+        "Name": "given_name",
+        "Value": "Cody"
+      },
+      {
+        "Name": "family_name",
+        "Value": "Mattern"
+      },
+      {
+        "Name": "email",
+        "Value": "cody.mattern@colorado.edu"
+      }
+    ]
+  }
+}
