@@ -1,7 +1,8 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pinned", "Pinned\Pinned.csproj", "{B3AD54F0-1B34-46D9-8A5E-0E95CA5D3662}"
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.9
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pinned", "Pinned\Pinned.csproj", "{0857C80E-9F16-45E9-8D5A-3E982ADB13C2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,9 +10,13 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B3AD54F0-1B34-46D9-8A5E-0E95CA5D3662}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B3AD54F0-1B34-46D9-8A5E-0E95CA5D3662}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B3AD54F0-1B34-46D9-8A5E-0E95CA5D3662}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B3AD54F0-1B34-46D9-8A5E-0E95CA5D3662}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0857C80E-9F16-45E9-8D5A-3E982ADB13C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0857C80E-9F16-45E9-8D5A-3E982ADB13C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0857C80E-9F16-45E9-8D5A-3E982ADB13C2}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{0857C80E-9F16-45E9-8D5A-3E982ADB13C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0857C80E-9F16-45E9-8D5A-3E982ADB13C2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal
