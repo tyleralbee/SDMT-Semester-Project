@@ -4,6 +4,8 @@ using Android.OS;
 
 namespace Pinned
 {
+    API_KEY = AIzaSyBABAS8N6CJXMFKjRxZ73PRTvpaJE_josY;
+
 	[Activity(Label = "Pinned", MainLauncher = true, Icon = "@mipmap/icon")]
 	public class MainActivity : Activity
 	{
