@@ -4,7 +4,7 @@ using Android.OS;
 
 namespace Pinned
 {
-    API_KEY = AIzaSyBABAS8N6CJXMFKjRxZ73PRTvpaJE_josY;
+
 
 	[Activity(Label = "Pinned", MainLauncher = true, Icon = "@mipmap/icon")]
 	public class MainActivity : Activity
@@ -16,7 +16,7 @@ namespace Pinned
 			base.OnCreate(savedInstanceState);
 
 			// Set our view from the "main" layout resource
-			SetContentView(Resource.Layout.Main);
+			SetContentView(Resource.Layout.Map);
 
 			// Get our button from the layout resource,
 			// and attach an event to it
