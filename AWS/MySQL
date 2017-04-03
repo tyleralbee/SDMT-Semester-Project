@@ -1,0 +1,6 @@
+    var connection = mysql.createConnection({
+      host     : 'pinneddb.ccm6yrcnsjsu.us-west-2.rds.amazonaws.com:3306',
+      user     : 'pinned',
+      password : '',
+      database : 'pinnedDB'
+    });
