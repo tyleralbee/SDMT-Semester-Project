@@ -1,0 +1,6 @@
+{
+  "operation": "getPins",
+  "payload": {
+    "memberID": "111111"
+  }
+}
