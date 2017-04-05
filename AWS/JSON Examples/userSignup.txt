@@ -1,7 +1,7 @@
 {
   "operation": "userSignup",
   "payload": {
-    "ClientId": "4gnc0gl0i7k40k2c3u61pej1qa",
+    "ClientId": "15n8eopq46ul2re3ppho7jf1f1",
     "Username": "Cody",
     "Password": "Password123!",
     "UserAttributes": [
