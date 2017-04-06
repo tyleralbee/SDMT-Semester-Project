@@ -21,7 +21,9 @@ Steps:
  5) Click Run then Start Run
  
  Results:
+![alt text][results]
 
+[results]: http://imgur.com/xUPuU2B "Resuts"
 
 
 
