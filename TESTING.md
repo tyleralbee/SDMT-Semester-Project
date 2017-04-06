@@ -78,44 +78,42 @@ Post-conditions
 
     New user information is validated with database and the user is successfully signed into their account. The account session details are logged in database, Facebook information is stored so that the user will never have to connect to Facebook twice.
 
-3. Verify login with valid user name and password
+3. Use case name
 
+    Verify login with valid user name and password through email or Facebook.
+    
 Description
 
-    Test the Google login page
-
+    These steps test the login page functions.
+    
 Pre-conditions
 
-    User has valid user name and password
-
+    User must have a valid user name and password created in the app to be able to login with email or password.
+    
 Test steps
 
-    1. Navigate to login page
-
-    2. Provide valid user name
-
-    3. Provide valid password
-
-    4. Click login button
-
+    1. Open the app on the device
+    2. Provide a valid user name used to login, such as email or Facebook username.
+    3. Provide a valid password used to login into an email or Facebook account.
+    4. Click the login button.
+    
 Expected result
 
-    User should be able to login
-
+    The user should be able to login in their account.
+    
 Actual result
 
-    User is navigated to dashboard with successful login
-
+    User is navigated to next page with successful login.
+    
 Status (Pass/Fail)
 
     Pass
-
+    
 Notes
 
-    N/A
-
+    If incorrect username or password is entered, an error message will appear.
+    
 Post-conditions
 
     User is validated with database and successfully signed into their account.
-
     The account session details are logged in database.
