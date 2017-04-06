@@ -13,8 +13,16 @@ VISION: Our goal is to make catching up with your friends and local community as
 TITILE: Pinned!
 
 AUTOMATED TESTS:
+Steps:
+ 1) Click button [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/e781ef7ab7b6dce8b619)
+ 2) Click Open with "Chrome" or "Windows"
+ 3) After sucesfull importation of the collection "Pinned"
+ 4) Mouse over the collection on your left hand side. Click the arrow pointing right
+ 5) Click Run then Start Run
+ 
+ Results:
 
-[![Run Tests](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/e781ef7ab7b6dce8b619)
+
 
 
 USER ACCEPTANCE TESTS:
