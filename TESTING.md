@@ -1,3 +1,23 @@
+WHO:
+
+                             Tyler Albee - tyleralbee
+
+                             Kyle Giacomini - suveck
+                             
+                             Anna Shea - annashea
+                             
+                             Cody Mattern - CodyMattern
+
+VISION: Our goal is to make catching up with your friends and local community as easy as possible. By allowing users to take advantage of geolocator based notifications and events users can easily organize for meet ups or put notes/pictures/videos for others at any location.
+
+TITILE: Pinned!
+
+AUTOMATED TESTS:
+
+
+
+USER ACCEPTANCE TESTS:
+
 1. Create user information via eMail
 
 Description
