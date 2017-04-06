@@ -23,7 +23,7 @@ Steps:
  Results:
 ![alt text][results]
 
-[results]: http://imgur.com/xUPuU2B "Resuts"
+[results]: http://i.imgur.com/xUPuU2B.png "Resuts"
 
 
 
