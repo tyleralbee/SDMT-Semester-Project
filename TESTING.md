@@ -14,6 +14,7 @@ TITILE: Pinned!
 
 AUTOMATED TESTS:
 
+[![Run Tests](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/e781ef7ab7b6dce8b619)
 
 
 USER ACCEPTANCE TESTS:
