@@ -98,9 +98,7 @@ Post-conditions
 
     New user information is validated with database and the user is successfully signed into their account. The account session details are logged in database, Facebook information is stored so that the user will never have to connect to Facebook twice.
 
-3. Use case name
-
-    Verify login with valid user name and password through email or Facebook.
+3. Verify login with valid user name and password through email or Facebook.
     
 Description
 
