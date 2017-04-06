@@ -1,6 +1,4 @@
-Use case name
-
-    Create user information via eMail
+1. Create user information via eMail
 
 Description
 
@@ -42,13 +40,11 @@ Post-conditions
 
     New user information is validated with database and the user is successfully signed into their account. The account session details are logged in database.
 
-Use case name
-
-    Create user information via Facebook
+2. Create user information via Facebook
 
 Description
 
-    User email is validated
+    User creates an account using Facebook to better connect with friends and login without need for email verification.
 
 Pre-conditions
 
@@ -82,9 +78,7 @@ Post-conditions
 
     New user information is validated with database and the user is successfully signed into their account. The account session details are logged in database, Facebook information is stored so that the user will never have to connect to Facebook twice.
 
-Use case name
-
-    Verify login with valid user name and password
+3. Verify login with valid user name and password
 
 Description
 
