@@ -1,8 +1,14 @@
 ﻿<Properties StartupConfiguration="{CEA010D1-052D-47D2-BAD3-740BD41C7ABD}|Default">
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.ItemProperties.Pinned.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.F7AAD8C2-490F-45DD-9BE7-2B3A90F32C70" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Pinned/AdminPage.xaml.cs">
+    <Files>
+      <File FileName="Pinned/AdminPage.xaml.cs" Line="33" Column="4" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
 </Properties>

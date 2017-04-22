@@ -1,0 +1,15 @@
+/Users/CodyMattern/Desktop/PInned/SDMT-Semester-Project/Pinned/Pinned/iOS/obj/iPhoneSimulator/Debug/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
+/Users/CodyMattern/Desktop/PInned/SDMT-Semester-Project/Pinned/Pinned/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3/ibtool/_BundleResourceWithLogicalName.items
+/Users/CodyMattern/Desktop/PInned/SDMT-Semester-Project/Pinned/Pinned/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3/actool/_PartialAppManifest.items
+/Users/CodyMattern/Desktop/PInned/SDMT-Semester-Project/Pinned/Pinned/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3/actool/_BundleResourceWithLogicalName.items
+/Users/CodyMattern/Desktop/PInned/SDMT-Semester-Project/Pinned/Pinned/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3/optimized/
+/Users/CodyMattern/Desktop/PInned/SDMT-Semester-Project/Pinned/Pinned/iOS/bin/iPhoneSimulator/Debug/Pinned.iOS.exe.mdb
+/Users/CodyMattern/Desktop/PInned/SDMT-Semester-Project/Pinned/Pinned/iOS/bin/iPhoneSimulator/Debug/Pinned.iOS.exe
+/Users/CodyMattern/Desktop/PInned/SDMT-Semester-Project/Pinned/Pinned/iOS/obj/iPhoneSimulator/Debug/Pinned.iOS.exe
+/Users/CodyMattern/Desktop/PInned/SDMT-Semester-Project/Pinned/Pinned/iOS/obj/iPhoneSimulator/Debug/Pinned.iOS.exe.mdb
+/Users/CodyMattern/Desktop/PInned/SDMT-Semester-Project/Pinned/Pinned/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Core.dll
+/Users/CodyMattern/Desktop/PInned/SDMT-Semester-Project/Pinned/Pinned/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.dll
+/Users/CodyMattern/Desktop/PInned/SDMT-Semester-Project/Pinned/Pinned/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.iOS.dll
+/Users/CodyMattern/Desktop/PInned/SDMT-Semester-Project/Pinned/Pinned/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Xaml.dll
+/Users/CodyMattern/Desktop/PInned/SDMT-Semester-Project/Pinned/Pinned/iOS/bin/iPhoneSimulator/Debug/Pinned.dll
+/Users/CodyMattern/Desktop/PInned/SDMT-Semester-Project/Pinned/Pinned/iOS/bin/iPhoneSimulator/Debug/Pinned.dll.mdb

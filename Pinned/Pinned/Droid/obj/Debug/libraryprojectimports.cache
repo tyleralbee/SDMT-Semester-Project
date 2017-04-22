@@ -4,6 +4,7 @@
   <ResolvedResourceDirectories>
     <ResolvedResourceDirectory>/Users/CodyMattern/Desktop/PInned/SDMT-Semester-Project/Pinned/Pinned/Droid/obj/Debug/__library_projects__/Xamarin.Forms.Platform.Android/library_project_imports/res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>/Users/CodyMattern/Desktop/PInned/SDMT-Semester-Project/Pinned/Pinned/Droid/obj/Debug/__library_projects__/Xamarin.Forms.Platform/library_project_imports/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/CodyMattern/Desktop/PInned/SDMT-Semester-Project/Pinned/Pinned/Droid/obj/Debug/__library_projects__/Xamarin.Android.Support.Transition/library_project_imports/res</ResolvedResourceDirectory>
   </ResolvedResourceDirectories>
   <ResolvedAssetDirectories>
     <ResolvedAssetDirectory>obj/Debug/__library_projects__/Xamarin.Forms.Platform.Android/library_project_imports/assets</ResolvedAssetDirectory>
@@ -13,5 +14,6 @@
   <ResolvedResourceDirectoryStamps>
     <ResolvedResourceDirectoryStamp>/Users/CodyMattern/Desktop/PInned/SDMT-Semester-Project/Pinned/Pinned/Droid/obj/Debug/__library_projects__/Xamarin.Forms.Platform.Android.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>/Users/CodyMattern/Desktop/PInned/SDMT-Semester-Project/Pinned/Pinned/Droid/obj/Debug/__library_projects__/Xamarin.Forms.Platform.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/CodyMattern/Desktop/PInned/SDMT-Semester-Project/Pinned/Pinned/Droid/obj/Debug/__library_projects__/Xamarin.Android.Support.Transition.stamp</ResolvedResourceDirectoryStamp>
   </ResolvedResourceDirectoryStamps>
 </Paths>

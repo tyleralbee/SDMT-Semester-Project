@@ -1,0 +1,17 @@
+/Users/CodyMattern/Desktop/PInned/SDMT-Semester-Project/Pinned/Pinned/Pinned/obj/Debug/.NETPortable,Version=v4.5,Profile=Profile259.AssemblyAttribute.cs
+/Users/CodyMattern/Desktop/PInned/SDMT-Semester-Project/Pinned/Pinned/Pinned/obj/Debug/Pinned.App.xaml
+/Users/CodyMattern/Desktop/PInned/SDMT-Semester-Project/Pinned/Pinned/Pinned/obj/Debug/Pinned.PinnedPage.xaml
+/Users/CodyMattern/Desktop/PInned/SDMT-Semester-Project/Pinned/Pinned/Pinned/obj/Debug/Pinned.MyPage.xaml
+/Users/CodyMattern/Desktop/PInned/SDMT-Semester-Project/Pinned/Pinned/Pinned/obj/Debug/Pinned.App.xaml.g.cs
+/Users/CodyMattern/Desktop/PInned/SDMT-Semester-Project/Pinned/Pinned/Pinned/obj/Debug/Pinned.PinnedPage.xaml.g.cs
+/Users/CodyMattern/Desktop/PInned/SDMT-Semester-Project/Pinned/Pinned/Pinned/obj/Debug/Pinned.MyPage.xaml.g.cs
+/Users/CodyMattern/Desktop/PInned/SDMT-Semester-Project/Pinned/Pinned/Pinned/bin/Debug/Pinned.dll.mdb
+/Users/CodyMattern/Desktop/PInned/SDMT-Semester-Project/Pinned/Pinned/Pinned/bin/Debug/Pinned.dll
+/Users/CodyMattern/Desktop/PInned/SDMT-Semester-Project/Pinned/Pinned/Pinned/obj/Debug/Pinned.dll
+/Users/CodyMattern/Desktop/PInned/SDMT-Semester-Project/Pinned/Pinned/Pinned/obj/Debug/Pinned.dll.mdb
+/Users/CodyMattern/Desktop/PInned/SDMT-Semester-Project/Pinned/Pinned/Pinned/bin/Debug/Xamarin.Forms.Core.dll
+/Users/CodyMattern/Desktop/PInned/SDMT-Semester-Project/Pinned/Pinned/Pinned/bin/Debug/Xamarin.Forms.Platform.dll
+/Users/CodyMattern/Desktop/PInned/SDMT-Semester-Project/Pinned/Pinned/Pinned/bin/Debug/Xamarin.Forms.Xaml.dll
+/Users/CodyMattern/Desktop/PInned/SDMT-Semester-Project/Pinned/Pinned/Pinned/obj/Debug/Pinned.AdminPage.xaml
+/Users/CodyMattern/Desktop/PInned/SDMT-Semester-Project/Pinned/Pinned/Pinned/obj/Debug/Pinned.AdminPage.xaml.g.cs
+/Users/CodyMattern/Desktop/PInned/SDMT-Semester-Project/Pinned/Pinned/Pinned/bin/Debug/Newtonsoft.Json.dll
