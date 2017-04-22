@@ -1,0 +1,13 @@
+﻿<Properties StartupConfiguration="{0857C80E-9F16-45E9-8D5A-3E982ADB13C2}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Pinned/MainActivity.cs">
+    <Files>
+      <File FileName="Pinned/MainActivity.cs" Line="15" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Pinned PreferredExecutionTarget="Android.Android_Accelerated_x86" />
+</Properties>
