@@ -13,3 +13,4 @@
 /Users/CodyMattern/Desktop/PInned/SDMT-Semester-Project/Pinned/Pinned/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Xaml.dll
 /Users/CodyMattern/Desktop/PInned/SDMT-Semester-Project/Pinned/Pinned/iOS/bin/iPhoneSimulator/Debug/Pinned.dll
 /Users/CodyMattern/Desktop/PInned/SDMT-Semester-Project/Pinned/Pinned/iOS/bin/iPhoneSimulator/Debug/Pinned.dll.mdb
+/Users/CodyMattern/Desktop/PInned/SDMT-Semester-Project/Pinned/Pinned/iOS/bin/iPhoneSimulator/Debug/Newtonsoft.Json.dll

@@ -8,7 +8,7 @@ namespace Pinned
 		{
 			InitializeComponent();
 
-			MainPage = new AdminPage();
+			MainPage = new TestPage();
 		}
 
 		protected override void OnStart()

@@ -15,3 +15,12 @@
 /Users/CodyMattern/Desktop/PInned/SDMT-Semester-Project/Pinned/Pinned/Pinned/obj/Debug/Pinned.AdminPage.xaml
 /Users/CodyMattern/Desktop/PInned/SDMT-Semester-Project/Pinned/Pinned/Pinned/obj/Debug/Pinned.AdminPage.xaml.g.cs
 /Users/CodyMattern/Desktop/PInned/SDMT-Semester-Project/Pinned/Pinned/Pinned/bin/Debug/Newtonsoft.Json.dll
+/Users/CodyMattern/Desktop/PInned/SDMT-Semester-Project/Pinned/Pinned/Pinned/bin/Debug/System.Net.Http.dll
+/Users/CodyMattern/Desktop/PInned/SDMT-Semester-Project/Pinned/Pinned/Pinned/bin/Debug/System.Net.Http.Extensions.dll
+/Users/CodyMattern/Desktop/PInned/SDMT-Semester-Project/Pinned/Pinned/Pinned/bin/Debug/System.Net.Http.Primitives.dll
+/Users/CodyMattern/Desktop/PInned/SDMT-Semester-Project/Pinned/Pinned/Pinned/bin/Debug/PCLStorage.Abstractions.dll
+/Users/CodyMattern/Desktop/PInned/SDMT-Semester-Project/Pinned/Pinned/Pinned/bin/Debug/PCLStorage.dll
+/Users/CodyMattern/Desktop/PInned/SDMT-Semester-Project/Pinned/Pinned/Pinned/bin/Debug/Validation.dll
+/Users/CodyMattern/Desktop/PInned/SDMT-Semester-Project/Pinned/Pinned/Pinned/bin/Debug/PCLCrypto.dll
+/Users/CodyMattern/Desktop/PInned/SDMT-Semester-Project/Pinned/Pinned/Pinned/bin/Debug/AWSSDK.Core.dll
+/Users/CodyMattern/Desktop/PInned/SDMT-Semester-Project/Pinned/Pinned/Pinned/bin/Debug/AWSSDK.APIGateway.dll

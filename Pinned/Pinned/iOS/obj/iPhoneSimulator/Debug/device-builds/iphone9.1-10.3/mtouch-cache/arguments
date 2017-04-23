@@ -38,6 +38,14 @@
 	-r \
 	/Users/CodyMattern/Desktop/PInned/SDMT-Semester-Project/Pinned/Pinned/packages/Xamarin.Forms.2.3.4.231/lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll \
 	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Microsoft.CSharp.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.IO.Compression.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Net.Http.dll \
+	-r \
+	/Users/CodyMattern/Desktop/PInned/SDMT-Semester-Project/Pinned/Pinned/packages/Newtonsoft.Json.10.0.2/lib/netstandard1.3/Newtonsoft.Json.dll \
+	-r \
 	/Users/CodyMattern/Desktop/PInned/SDMT-Semester-Project/Pinned/Pinned/Pinned/bin/Debug/Pinned.dll \
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll \
@@ -311,6 +319,8 @@
 	/Users/CodyMattern/Desktop/PInned/SDMT-Semester-Project/Pinned/Pinned/packages/Xamarin.Forms.2.3.4.231/lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll \
 	-r \
 	/Users/CodyMattern/Desktop/PInned/SDMT-Semester-Project/Pinned/Pinned/packages/Xamarin.Forms.2.3.4.231/lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll \
+	-r \
+	/Users/CodyMattern/Desktop/PInned/SDMT-Semester-Project/Pinned/Pinned/packages/Newtonsoft.Json.10.0.2/lib/netstandard1.3/Newtonsoft.Json.dll \
 	-r \
 	/Users/CodyMattern/Desktop/PInned/SDMT-Semester-Project/Pinned/Pinned/Pinned/bin/Debug/Pinned.dll \
 	--target-framework \
