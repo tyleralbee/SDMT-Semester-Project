@@ -10,12 +10,12 @@ import UIKit
 
 class LoginViewController: UIViewController {
 
-  //  @IBAction func moveToTabBar(_ sender: AnyObject) {
-    //    let storyboard = UIStoryboard(name: "Main", bundle: nil)
-      //  let tabBarController = storyboard.instantiateViewController(withIdentifier: "TabBarController") as! UITabBarController
-        //let appDelegate: AppDelegate = UIApplication.shared.delegate as! AppDelegate
-        //appDelegate.window?.rootViewController = appDelegate.tabBarController
-   // }
+    @IBAction func moveToTabBar(_ sender: AnyObject) {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let tabBarController = storyboard.instantiateViewController(withIdentifier: "TabBarController") as! UITabBarController
+        let appDelegate: AppDelegate = UIApplication.shared.delegate as! AppDelegate
+        appDelegate.window?.rootViewController = appDelegate.tabBarController
+    }
     
     
       override func viewDidLoad() {
