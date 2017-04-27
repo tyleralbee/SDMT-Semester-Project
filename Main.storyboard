@@ -75,31 +75,44 @@
                                 <rect key="frame" x="162" y="285" width="97" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <accessibility key="accessibilityConfiguration" label="UserNameTextView" identifier="UserNameTextView"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Text" borderStyle="roundedRect" minimumFontSize="17" id="1399" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Text" borderStyle="roundedRect" minimumFontSize="17" id="1399" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" restorationIdentifier="PasswordTextView">
                                 <rect key="frame" x="162" y="336" width="97" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <accessibility key="accessibilityConfiguration" label="PasswordTextView" identifier="PasswordTextView"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="1400" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="1400" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" restorationIdentifier="LoginButton">
                                 <rect key="frame" x="289" y="298" width="46" height="30"/>
-                                <state key="normal" title="Button">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections/>
+                                <connections>
+                                    <action selector="LoginButton_TouchUpInside:" destination="72" id="2183" eventType="touchUpInside"/>
+                                </connections>
+                                <accessibility key="accessibilityConfiguration" label="LoginButton" identifier="LoginButton">
+                                    <accessibilityTraits key="traits" button="YES" allowsDirectInteraction="YES" causesPageTurn="YES"/>
+                                </accessibility>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                <state key="normal" title="LoginButton"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="1402" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="1402" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" restorationIdentifier="SignUpButton">
                                 <rect key="frame" x="451" y="520" width="46" height="30"/>
                                 <state key="normal" title="Button">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <segue id="1551" destination="154" kind="show"/>
+                                    <action selector="SignUpButton_TouchUpInside:" destination="72" id="2205" eventType="touchUpInside"/>
                                 </connections>
+                                <accessibility key="accessibilityConfiguration" label="SignUpButton" identifier="SignUpButton"/>
                             </button>
                         </subviews>
                     </view>
-                    <connections/>
+                    <connections>
+                        <outlet property="LoginButton" destination="1400" id="name-outlet-1400"/>
+                        <outlet property="UserNameTextView" destination="1398" id="name-outlet-1398"/>
+                        <outlet property="PasswordTextView" destination="1399" id="name-outlet-1399"/>
+                        <outlet property="SignUpButton" destination="1402" id="name-outlet-1402"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="74" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -123,8 +136,21 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="2212" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" restorationIdentifier="CancelButton">
+                                <rect key="frame" x="55" y="524" width="46" height="30"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="CancelButton_TouchUpInside:" destination="154" id="2214" eventType="touchUpInside"/>
+                                </connections>
+                                <accessibility key="accessibilityConfiguration" label="CancelButton" identifier="CancelButton"/>
+                            </button>
                         </subviews>
                     </view>
+                    <connections>
+                        <outlet property="CancelButton" destination="2212" id="name-outlet-2212"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="156" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -169,12 +195,48 @@
                                 </state>
                                 <connections/>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="2004" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="478" y="542" width="46" height="30"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue id="2155" destination="1996" kind="presentation"/>
+                                </connections>
+                            </button>
                         </subviews>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="178" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1409" y="-371"/>
+        </scene>
+        <scene sceneID="1995">
+            <objects>
+                <tableViewController id="1996" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="1997">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="2000">
+                                <rect key="frame" x="0.0" y="28" width="600" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="2000" id="2001">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="1996" id="1998"/>
+                            <outlet property="delegate" destination="1996" id="1999"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2002" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2114" y="-374"/>
         </scene>
     </scenes>
 </document>

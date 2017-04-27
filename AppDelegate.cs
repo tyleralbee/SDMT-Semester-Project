@@ -1,5 +1,6 @@
 ﻿using Foundation;
 using UIKit;
+using System;
 
 namespace Pinned
 {
@@ -9,7 +10,7 @@ namespace Pinned
 	public class AppDelegate : UIApplicationDelegate
 	{
 		// class-level declarations
-		public EventArgs()
+		private bool isAuthenticated = false;
 
 		public override UIWindow Window
 		{

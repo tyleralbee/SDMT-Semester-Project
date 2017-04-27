@@ -6,12 +6,28 @@ namespace Pinned
 {
 	public partial class LoginPageViewController : UIViewController
 	{
+
 		//Create an event when a authentication is successful
 		public event EventHandler OnLoginSuccess;
 
 		public LoginPageViewController(IntPtr handle) : base(handle)
 		{
 		}
+
+	partial void SignUpButton_TouchUpInside(UIButton sender)
+	{
+		//Create an instance of our AppDelegate
+		var appDelegate = UIApplication.SharedApplication.Delegate as AppDelegate;
+
+		//Get an instance of our MainStoryboard.storyboard
+		var mainStoryboard = appDelegate.MainStoryboard;
+
+		//Get an instance of our MainTabBarViewController
+		var mainTabBarViewController = appDelegate.GetViewController(mainStoryboard, "MainTabBarController");
+
+		//Set the MainTabBarViewController as our RootViewController
+		appDelegate.SetRootViewController(mainTabBarViewController, true);
+	}
 
 		partial void LoginButton_TouchUpInside(UIButton sender)
 		{

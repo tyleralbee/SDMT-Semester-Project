@@ -14,8 +14,20 @@ namespace Pinned
     [Register ("SignUpViewController")]
     partial class SignUpViewController
     {
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UIButton CancelButton { get; set; }
+
+        [Action ("CancelButton_TouchUpInside:")]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        partial void CancelButton_TouchUpInside (UIKit.UIButton sender);
+
         void ReleaseDesignerOutlets ()
         {
+            if (CancelButton != null) {
+                CancelButton.Dispose ();
+                CancelButton = null;
+            }
         }
     }
 }
