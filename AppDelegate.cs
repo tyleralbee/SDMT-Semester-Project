@@ -17,10 +17,11 @@ namespace Pinned
 			get;
 			set;
 		}
+
 		//Public property to access our MainStoryboard.storyboard file
 		public UIStoryboard MainStoryboard
 		{
-			get { return UIStoryboard.FromName("MainStoryboard", NSBundle.MainBundle); }
+			get { return UIStoryboard.FromName("Main", NSBundle.MainBundle); }
 		}
 
 		//Creates an instance of viewControllerName from storyboard
@@ -75,13 +76,6 @@ namespace Pinned
 			var tabBarController = GetViewController(MainStoryboard, "MainTabBarController");
 			SetRootViewController(tabBarController, true);
 		}
-
-			// Code to start the Xamarin Test Cloud Agent
-//#if ENABLE_TEST_CLOUD
-//			Xamarin.Calabash.Start();
-//#endif
-
-		//	return true;
 
 		public override void OnResignActivation(UIApplication application)
 		{
