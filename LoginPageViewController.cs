@@ -9,10 +9,10 @@ namespace Pinned
         public LoginPageViewController (IntPtr handle) : base (handle)
         {
         }
-private bool IsUserNameValid()
-{
-	return !String.IsNullOrEmpty(UserNameTextView.Text.Trim());
-}
+		private bool IsUserNameValid()
+		{
+			return !String.IsNullOrEmpty(UserNameTextView.Text.Trim());
+		}
 		public event EventHandler OnLoginSuccess;
 
 		private bool IsPasswordValid()

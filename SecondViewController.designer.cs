@@ -13,6 +13,10 @@ namespace Pinned
     [Register ("SecondViewController")]
     partial class SecondViewController
     {
+        [Action ("DropPinButton_TouchUpInside:")]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        partial void DropPinButton_TouchUpInside (UIKit.UIButton sender);
+
         void ReleaseDesignerOutlets ()
         {
         }
