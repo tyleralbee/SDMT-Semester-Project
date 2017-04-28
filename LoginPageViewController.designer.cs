@@ -24,10 +24,6 @@ namespace Pinned
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UIButton SignUpButton { get; set; }
-
-        [Outlet]
-        [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UITextField UserNameTextView { get; set; }
 
         [Action ("LoginButton_TouchUpInside:")]
@@ -48,11 +44,6 @@ namespace Pinned
             if (PasswordTextView != null) {
                 PasswordTextView.Dispose ();
                 PasswordTextView = null;
-            }
-
-            if (SignUpButton != null) {
-                SignUpButton.Dispose ();
-                SignUpButton = null;
             }
 
             if (UserNameTextView != null) {

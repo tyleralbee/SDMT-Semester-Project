@@ -153,21 +153,15 @@
                                     <constraint id="274" firstAttribute="height" constant="40"/>
                                 </constraints>
                             </button>
-                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="16" translatesAutoresizingMaskIntoConstraints="NO">
-                                <rect key="frame" x="278" y="396" width="92" height="37"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="298" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="294" y="403" width="69" height="44"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17" weight="heavy"/>
                                 <state key="normal" title="Sign Up">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <accessibility key="accessibilityConfiguration" label="SignUpButton" identifier="SignUpButton"/>
                                 <connections>
-                                    <action selector="SignUpButton_TouchUpInside:" destination="8" id="17" eventType="touchUpInside"/>
-                                    <segue id="203" destination="21" kind="push"/>
+                                    <action selector="SignUpButton_TouchUpInside:" destination="8" id="299" eventType="touchUpInside"/>
                                 </connections>
-                                <constraints>
-                                    <constraint id="277" firstAttribute="width" constant="92"/>
-                                    <constraint id="278" firstAttribute="height" constant="37"/>
-                                </constraints>
                             </button>
                         </subviews>
                         <constraints>
@@ -177,15 +171,12 @@
                             <constraint id="269" firstItem="9" firstAttribute="bottom" secondItem="13" secondAttribute="bottom" constant="167"/>
                             <constraint id="271" firstItem="9" firstAttribute="trailing" secondItem="14" secondAttribute="trailing" constant="253"/>
                             <constraint id="272" firstItem="9" firstAttribute="bottom" secondItem="14" secondAttribute="bottom" constant="205"/>
-                            <constraint id="275" firstItem="9" firstAttribute="trailing" secondItem="16" secondAttribute="trailing" constant="230"/>
-                            <constraint id="276" firstItem="9" firstAttribute="bottom" secondItem="16" secondAttribute="bottom" constant="167"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="UserNameTextView" destination="12" id="name-outlet-12"/>
                         <outlet property="PasswordTextView" destination="13" id="name-outlet-13"/>
                         <outlet property="LoginButton" destination="14" id="name-outlet-14"/>
-                        <outlet property="SignUpButton" destination="16" id="name-outlet-16"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="10" userLabel="First Responder" sceneMemberID="firstResponder"/>

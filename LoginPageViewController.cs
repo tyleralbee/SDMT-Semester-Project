@@ -9,6 +9,11 @@ namespace Pinned
         public LoginPageViewController (IntPtr handle) : base (handle)
         {
         }
+		private bool isSignUpValid()
+		{
+			return true;
+		}
+		public event EventHandler onSignUpSuccess;
 		private bool IsUserNameValid()
 		{
 			return !String.IsNullOrEmpty(UserNameTextView.Text.Trim());
@@ -37,21 +42,35 @@ namespace Pinned
             {
                 new UIAlertView("Login Error", "Bad user name or password", null, "OK", null).Show();
             }
-        }
+		}
 
 		partial void SignUpButton_TouchUpInside(UIButton sender)
-        {
-            //Create an instance of our AppDelegate
-            var appDelegate = UIApplication.SharedApplication.Delegate as AppDelegate;
+		{
+	if (isSignUpValid())
+	{
+		//We have successfully authenticated a the user,
+		//Now fire our OnLoginSuccess Event.
+		if (onSignUpSuccess != null)
+		{
 
-			//Get an instance of our MainStoryboard.storyboard
-			var mainStoryboard = appDelegate.MainStoryboard;
+			onSignUpSuccess(sender, new EventArgs());
+		}
+	}
+	else
+	{
+		new UIAlertView("Login Error", "Bad user name or password", null, "OK", null).Show();
+	}
+	//Create an instance of our AppDelegate
+	var appDelegate = UIApplication.SharedApplication.Delegate as AppDelegate;
 
-			//Get an instance of our MainTabBarViewController
-			var mainTabBarViewController = appDelegate.GetViewController(mainStoryboard, "MainTabBarController");
+	//Get an instance of our MainStoryboard.storyboard
+	var mainStoryboard = appDelegate.MainStoryboard;
+
+	//Get an instance of our MainTabBarViewController
+	var mainTabBarViewController = appDelegate.GetViewController(mainStoryboard, "SignUpPageViewController");
 
 			//Set the MainTabBarViewController as our RootViewController
 			appDelegate.SetRootViewController(mainTabBarViewController, true);
-        }
+}
 	}
 }
