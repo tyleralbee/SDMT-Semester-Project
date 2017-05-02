@@ -3487,7 +3487,7 @@ namespace Pinned.Droid
 			public const int Login = 2130903081;
 			
 			// aapt resource value: 0x7f03002a
-			public const int main = 2130903082;
+			public const int Main = 2130903082;
 			
 			// aapt resource value: 0x7f03002b
 			public const int mr_chooser_dialog = 2130903083;

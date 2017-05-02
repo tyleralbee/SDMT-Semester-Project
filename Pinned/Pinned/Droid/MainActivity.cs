@@ -17,11 +17,11 @@ namespace Pinned.Droid
 		{
 			TabLayoutResource = Resource.Layout.Tabbar;
             ToolbarResource = Resource.Layout.Toolbar;
-            mainResource = Resource.Layout.main;
-            loginResource = Resource.Layout.Login;
+            //MainResource = Resource.Layout.Main;
+            //LoginResource = Resource.Layout.Login;
 
             base.OnCreate(bundle);
-            SetContentView (loginResource)
+            SetContentView(Resource.Layout.Login);
 
 			global::Xamarin.Forms.Forms.Init(this, bundle);
 
