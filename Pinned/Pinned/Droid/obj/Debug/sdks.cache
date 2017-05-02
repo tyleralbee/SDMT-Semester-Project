@@ -2,19 +2,19 @@
 <Sdk>
   <AndroidApiLevel>25</AndroidApiLevel>
   <AndroidApiLevelName>25</AndroidApiLevelName>
-  <AndroidNdkPath>/Users/CodyMattern/Library/Developer/Xamarin/android-ndk/android-ndk-r11c</AndroidNdkPath>
-  <AndroidSdkBuildToolsPath>/Users/CodyMattern/Library/Developer/Xamarin/android-sdk-macosx/build-tools/23.0.2</AndroidSdkBuildToolsPath>
-  <AndroidSdkBuildToolsBinPath>/Users/CodyMattern/Library/Developer/Xamarin/android-sdk-macosx/build-tools/23.0.2</AndroidSdkBuildToolsBinPath>
-  <AndroidSdkPath>/Users/CodyMattern/Library/Developer/Xamarin/android-sdk-macosx</AndroidSdkPath>
-  <JavaSdkPath>/usr</JavaSdkPath>
-  <MonoAndroidBinPath>/Library/Frameworks/Xamarin.Android.framework/Versions/Current/bin</MonoAndroidBinPath>
-  <MonoAndroidToolsPath>/Library/Frameworks/Xamarin.Android.framework/Versions/Current/lib/mandroid</MonoAndroidToolsPath>
+  <AndroidNdkPath>C:\ProgramData\Microsoft\AndroidNDK64\android-ndk-r13b</AndroidNdkPath>
+  <AndroidSdkBuildToolsPath>C:\Users\Suveck\AppData\Local\Android\android-sdk\build-tools\23.0.3</AndroidSdkBuildToolsPath>
+  <AndroidSdkBuildToolsBinPath>C:\Users\Suveck\AppData\Local\Android\android-sdk\build-tools\23.0.3</AndroidSdkBuildToolsBinPath>
+  <AndroidSdkPath>C:\Users\Suveck\AppData\Local\Android\android-sdk</AndroidSdkPath>
+  <JavaSdkPath>C:\Program Files\Java\jdk1.8.0_92</JavaSdkPath>
+  <MonoAndroidBinPath>C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\Xamarin\Android</MonoAndroidBinPath>
+  <MonoAndroidToolsPath>C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\Xamarin\Android</MonoAndroidToolsPath>
   <ReferenceAssemblyPaths>
-    <ReferenceAssemblyPath>/Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/</ReferenceAssemblyPath>
+    <ReferenceAssemblyPath>C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\ReferenceAssemblies\Microsoft\Framework\MonoAndroid\v1.0\</ReferenceAssemblyPath>
   </ReferenceAssemblyPaths>
-  <TargetFrameworkVersion>v7.0</TargetFrameworkVersion>
-  <ZipAlignPath>/Users/CodyMattern/Library/Developer/Xamarin/android-sdk-macosx/build-tools/23.0.2</ZipAlignPath>
+  <TargetFrameworkVersion>v7.1</TargetFrameworkVersion>
+  <ZipAlignPath>C:\Users\Suveck\AppData\Local\Android\android-sdk\build-tools\23.0.3</ZipAlignPath>
   <MonoAndroidIncludePath />
-  <SupportedApiLevel>24</SupportedApiLevel>
+  <SupportedApiLevel>25</SupportedApiLevel>
   <AndroidSequencePointsMode>None</AndroidSequencePointsMode>
 </Sdk>

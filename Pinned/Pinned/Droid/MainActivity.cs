@@ -16,9 +16,12 @@ namespace Pinned.Droid
 		protected override void OnCreate(Bundle bundle)
 		{
 			TabLayoutResource = Resource.Layout.Tabbar;
-			ToolbarResource = Resource.Layout.Toolbar;
+            ToolbarResource = Resource.Layout.Toolbar;
+            mainResource = Resource.Layout.main;
+            loginResource = Resource.Layout.Login;
 
-			base.OnCreate(bundle);
+            base.OnCreate(bundle);
+            SetContentView (loginResource)
 
 			global::Xamarin.Forms.Forms.Init(this, bundle);
 

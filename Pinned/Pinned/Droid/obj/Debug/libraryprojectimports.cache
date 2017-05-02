@@ -2,18 +2,28 @@
 <Paths>
   <Jars></Jars>
   <ResolvedResourceDirectories>
-    <ResolvedResourceDirectory>/Users/CodyMattern/Desktop/PInned/SDMT-Semester-Project/Pinned/Pinned/Droid/obj/Debug/__library_projects__/Xamarin.Forms.Platform.Android/library_project_imports/res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>/Users/CodyMattern/Desktop/PInned/SDMT-Semester-Project/Pinned/Pinned/Droid/obj/Debug/__library_projects__/Xamarin.Forms.Platform/library_project_imports/res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>/Users/CodyMattern/Desktop/PInned/SDMT-Semester-Project/Pinned/Pinned/Droid/obj/Debug/__library_projects__/Xamarin.Android.Support.Transition/library_project_imports/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\Suveck\Desktop\3308\SDMT-Semester-Project\Pinned\Pinned\Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform.Android\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\Suveck\Desktop\3308\SDMT-Semester-Project\Pinned\Pinned\Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\Suveck\Desktop\3308\SDMT-Semester-Project\Pinned\Pinned\Droid\obj\Debug\__library_projects__\Xamarin.Android.Support.Transition\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\Suveck\Desktop\3308\SDMT-Semester-Project\Pinned\Pinned\Droid\obj\Debug\__library_projects__\Xamarin.Android.Support.v7.CardView\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\Suveck\Desktop\3308\SDMT-Semester-Project\Pinned\Pinned\Droid\obj\Debug\__library_projects__\Xamarin.Android.Support.v7.RecyclerView\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\Suveck\Desktop\3308\SDMT-Semester-Project\Pinned\Pinned\Droid\obj\Debug\__library_projects__\Xamarin.Android.Support.v7.AppCompat\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\Suveck\Desktop\3308\SDMT-Semester-Project\Pinned\Pinned\Droid\obj\Debug\__library_projects__\Xamarin.Android.Support.Design\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\Suveck\Desktop\3308\SDMT-Semester-Project\Pinned\Pinned\Droid\obj\Debug\__library_projects__\Xamarin.Android.Support.v7.MediaRouter\library_project_imports\res</ResolvedResourceDirectory>
   </ResolvedResourceDirectories>
   <ResolvedAssetDirectories>
-    <ResolvedAssetDirectory>obj/Debug/__library_projects__/Xamarin.Forms.Platform.Android/library_project_imports/assets</ResolvedAssetDirectory>
-    <ResolvedAssetDirectory>obj/Debug/__library_projects__/Xamarin.Forms.Platform/library_project_imports/assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj\Debug\__library_projects__\Xamarin.Forms.Platform.Android\library_project_imports\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj\Debug\__library_projects__\Xamarin.Forms.Platform\library_project_imports\assets</ResolvedAssetDirectory>
   </ResolvedAssetDirectories>
   <ResolvedEnvironmentFiles />
   <ResolvedResourceDirectoryStamps>
-    <ResolvedResourceDirectoryStamp>/Users/CodyMattern/Desktop/PInned/SDMT-Semester-Project/Pinned/Pinned/Droid/obj/Debug/__library_projects__/Xamarin.Forms.Platform.Android.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>/Users/CodyMattern/Desktop/PInned/SDMT-Semester-Project/Pinned/Pinned/Droid/obj/Debug/__library_projects__/Xamarin.Forms.Platform.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>/Users/CodyMattern/Desktop/PInned/SDMT-Semester-Project/Pinned/Pinned/Droid/obj/Debug/__library_projects__/Xamarin.Android.Support.Transition.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\Suveck\Desktop\3308\SDMT-Semester-Project\Pinned\Pinned\Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform.Android.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\Suveck\Desktop\3308\SDMT-Semester-Project\Pinned\Pinned\Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\Suveck\Desktop\3308\SDMT-Semester-Project\Pinned\Pinned\Droid\obj\Debug\__library_projects__\Xamarin.Android.Support.Transition.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\Suveck\Desktop\3308\SDMT-Semester-Project\Pinned\Pinned\Droid\obj\Debug\__library_projects__\Xamarin.Android.Support.v7.CardView.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\Suveck\Desktop\3308\SDMT-Semester-Project\Pinned\Pinned\Droid\obj\Debug\__library_projects__\Xamarin.Android.Support.v7.RecyclerView.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\Suveck\Desktop\3308\SDMT-Semester-Project\Pinned\Pinned\Droid\obj\Debug\__library_projects__\Xamarin.Android.Support.v7.AppCompat.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\Suveck\Desktop\3308\SDMT-Semester-Project\Pinned\Pinned\Droid\obj\Debug\__library_projects__\Xamarin.Android.Support.Design.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\Suveck\Desktop\3308\SDMT-Semester-Project\Pinned\Pinned\Droid\obj\Debug\__library_projects__\Xamarin.Android.Support.v7.MediaRouter.stamp</ResolvedResourceDirectoryStamp>
   </ResolvedResourceDirectoryStamps>
 </Paths>
