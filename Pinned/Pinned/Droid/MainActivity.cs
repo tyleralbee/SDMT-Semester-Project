@@ -23,9 +23,14 @@ namespace Pinned.Droid
             base.OnCreate(bundle);
             SetContentView(Resource.Layout.Login);
 
+            Button button = FindViewById<Button>(Resource.Id.Login);
+
+
+
+
 			global::Xamarin.Forms.Forms.Init(this, bundle);
 
 			LoadApplication(new App());
-		}
+        }
 	}
 }
