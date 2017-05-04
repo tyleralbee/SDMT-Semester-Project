@@ -93,6 +93,10 @@
     <Compile Include="AccountCreationViewController.designer.cs">
       <DependentUpon>AccountCreationViewController.cs</DependentUpon>
     </Compile>
+    <Compile Include="HomePageViewController.cs" />
+    <Compile Include="HomePageViewController.designer.cs">
+      <DependentUpon>HomePageViewController.cs</DependentUpon>
+    </Compile>
     <Compile Include="LoginView.cs" />
     <Compile Include="LoginView.designer.cs">
       <DependentUpon>LoginView.cs</DependentUpon>
@@ -102,10 +106,19 @@
     <None Include="app.config" />
     <None Include="Entitlements.plist" />
     <None Include="Info.plist" />
+    <Compile Include="MapHomeView.cs" />
+    <Compile Include="MapHomeView.designer.cs">
+      <DependentUpon>MapHomeView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NavigationController.cs" />
+    <Compile Include="NavigationController.designer.cs">
+      <DependentUpon>NavigationController.cs</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <ITunesArtwork Include="iTunesArtwork" />
     <ITunesArtwork Include="iTunesArtwork@2x" />
     <InterfaceDefinition Include="Login.storyboard" />
+    <InterfaceDefinition Include="LaunchScreen.storyboard" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
@@ -162,6 +175,9 @@
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\PinnedBanner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\IconLarge.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <Import Project="..\..\packages\Xamarin.Forms.2.3.4.224\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.targets" Condition="Exists('..\..\packages\Xamarin.Forms.2.3.4.224\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.targets')" />

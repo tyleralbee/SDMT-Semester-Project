@@ -1,35 +1,50 @@
 ﻿using Foundation;
 using System;
 using UIKit;
+using System.Diagnostics;
 
 namespace PinnedApp.iOS
 {
     public partial class LoginView : UIViewController
     {
-        UIViewController AccountCreation;
-        public LoginView (IntPtr handle) : base (handle)
+        Universal login;
+
+        public LoginView(IntPtr handle) : base(handle)
         {
+            login = new Universal();
         }
         public override void ViewDidLoad()
         {
             base.ViewDidLoad();
-            Universal login = new Universal();
-            btnLogin.TouchUpInside += (o, e) =>
-            {
-                login.loginUser(txtUsername.Text, txtPassword.Text);
-            };
         }
         public override void AwakeFromNib()
         {
             base.AwakeFromNib();
-            AccountCreation = Storyboard.InstantiateViewController("AccountCreationViewController") as AccountCreationViewController;
         }
 
 
+        async void LoginButton()
+        {
+            bool sucess = await login.loginUser(txtUsername.Text, txtPassword.Text);
+            Debug.WriteLine("AAAccess token: {0}", login.user.AccessToken);
+            if (sucess)
+            {
+                PerformSegue("SucessLoginSegue", this);
+            } else
+            {
+                Debug.WriteLine("Failed to login");
+            }
+        }
 
+        partial void BtnLogin_TouchUpInside(UIButton sender)
+        {
+            LoginButton();
+        }
         partial void BtnSignup_TouchUpInside(UIButton sender)
         {
-            this.NavigationController.PushViewController(AccountCreation, true);
+            PerformSegue("SegueSignup", this);
         }
+
+
     }
 }

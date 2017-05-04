@@ -24,23 +24,31 @@ namespace PinnedApp.iOS
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UITextField txtConfirm { get; set; }
+        UIKit.UIView SignupPage { get; set; }
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UITextField txtEmail { get; set; }
+        UIKit.UITextField txtSignupConfirm { get; set; }
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UITextField txtFirstname { get; set; }
+        UIKit.UITextField txtSignupEmail { get; set; }
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UITextField txtPassword { get; set; }
+        UIKit.UITextField txtSignupFirstname { get; set; }
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UITextField txtUsername { get; set; }
+        UIKit.UITextField txtSignupLastname { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UITextField txtSignupPassword { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UITextField txtSignupUsername { get; set; }
 
         [Action ("BtnConfirm_TouchUpInside:")]
         [GeneratedCode ("iOS Designer", "1.0")]
@@ -62,29 +70,39 @@ namespace PinnedApp.iOS
                 btnCreate = null;
             }
 
-            if (txtConfirm != null) {
-                txtConfirm.Dispose ();
-                txtConfirm = null;
+            if (SignupPage != null) {
+                SignupPage.Dispose ();
+                SignupPage = null;
             }
 
-            if (txtEmail != null) {
-                txtEmail.Dispose ();
-                txtEmail = null;
+            if (txtSignupConfirm != null) {
+                txtSignupConfirm.Dispose ();
+                txtSignupConfirm = null;
             }
 
-            if (txtFirstname != null) {
-                txtFirstname.Dispose ();
-                txtFirstname = null;
+            if (txtSignupEmail != null) {
+                txtSignupEmail.Dispose ();
+                txtSignupEmail = null;
             }
 
-            if (txtPassword != null) {
-                txtPassword.Dispose ();
-                txtPassword = null;
+            if (txtSignupFirstname != null) {
+                txtSignupFirstname.Dispose ();
+                txtSignupFirstname = null;
             }
 
-            if (txtUsername != null) {
-                txtUsername.Dispose ();
-                txtUsername = null;
+            if (txtSignupLastname != null) {
+                txtSignupLastname.Dispose ();
+                txtSignupLastname = null;
+            }
+
+            if (txtSignupPassword != null) {
+                txtSignupPassword.Dispose ();
+                txtSignupPassword = null;
+            }
+
+            if (txtSignupUsername != null) {
+                txtSignupUsername.Dispose ();
+                txtSignupUsername = null;
             }
         }
     }

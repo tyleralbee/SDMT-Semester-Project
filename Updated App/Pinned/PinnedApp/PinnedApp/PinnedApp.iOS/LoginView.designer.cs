@@ -34,6 +34,10 @@ namespace PinnedApp.iOS
         [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UITextField txtUsername { get; set; }
 
+        [Action ("BtnLogin_TouchUpInside:")]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        partial void BtnLogin_TouchUpInside (UIKit.UIButton sender);
+
         [Action ("BtnSignup_TouchUpInside:")]
         [GeneratedCode ("iOS Designer", "1.0")]
         partial void BtnSignup_TouchUpInside (UIKit.UIButton sender);
