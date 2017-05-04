@@ -1,0 +1,10 @@
+{
+  "operation": "getPins",
+  "payload": {
+    "memberID": "111111",
+    "title": "hi",
+    "desc": "asd",
+    "longitude": "1",
+    "latitude": "2"
+  }
+}
