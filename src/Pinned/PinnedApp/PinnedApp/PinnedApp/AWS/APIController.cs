@@ -12,7 +12,11 @@ namespace PinnedApp
 {
 	public class APIController
 	{
-
+        /// <summary>
+        /// Sends a http request to our api
+        /// </summary>
+        /// <param name="evn"></param>
+        /// <returns></returns>
 		async Task<string> GetAPIAsync(Event evn)
 		{
 			HttpClient client;
@@ -35,7 +39,12 @@ namespace PinnedApp
 		}
 
 
-
+        /// <summary>
+        /// helper method for api request
+        /// </summary>
+        /// <param name="api"></param>
+        /// <param name="dto"></param>
+        /// <returns></returns>
 		public async Task<string> ExecuteAPI(APIEnum.apiEnum api, DTO dto)
 		{
 			Event newEvent = new Event(api, dto);

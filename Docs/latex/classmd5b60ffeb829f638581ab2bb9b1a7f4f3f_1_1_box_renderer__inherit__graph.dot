@@ -1,0 +1,18 @@
+digraph "md5b60ffeb829f638581ab2bb9b1a7f4f3f.BoxRenderer"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="md5b60ffeb829f638581ab2bb9b1a7f4f3f.\lBoxRenderer",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node1 [label="md5b60ffeb829f638581ab2bb9b1a7f4f3f.\lVisualElementRenderer_1",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmd5b60ffeb829f638581ab2bb9b1a7f4f3f_1_1_visual_element_renderer__1.html"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node2 [label="com::xamarin::forms\l::platform::android\l::FormsViewGroup",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node3 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node3 [label="IGCUserPeer",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node4 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node4 [label="android::view::View\l::OnTouchListener",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node5 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node5 [label="OnClickListener",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node3 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+}

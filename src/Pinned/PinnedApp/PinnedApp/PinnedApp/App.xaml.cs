@@ -12,7 +12,7 @@ namespace PinnedApp
         public App()
         {
             InitializeComponent();
-            MainPage = new PinnedApp.MainPage();
+            MainPage = new TestPage();
         }
 
         protected override void OnStart()

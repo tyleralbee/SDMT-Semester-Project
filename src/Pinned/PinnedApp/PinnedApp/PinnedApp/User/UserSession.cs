@@ -1,6 +1,9 @@
 ﻿using System;
 namespace PinnedApp
 {
+    /// <summary>
+    /// Holds user data after sucessfull login
+    /// </summary>
 	public class UserSession
 	{
 

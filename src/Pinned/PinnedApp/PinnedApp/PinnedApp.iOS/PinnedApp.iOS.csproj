@@ -27,6 +27,7 @@
     <MtouchLink>None</MtouchLink>
     <MtouchDebug>true</MtouchDebug>
     <CodesignKey>iPhone Developer: codemister9@msn.com (LY45H279DC)</CodesignKey>
+    <DocumentationFile>bin\iPhoneSimulator\Debug\PinnedApp.iOS.XML</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
     <DebugType>none</DebugType>

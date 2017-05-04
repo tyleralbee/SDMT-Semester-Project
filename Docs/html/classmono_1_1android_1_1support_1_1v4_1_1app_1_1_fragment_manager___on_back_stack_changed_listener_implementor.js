@@ -1,0 +1,7 @@
+var classmono_1_1android_1_1support_1_1v4_1_1app_1_1_fragment_manager___on_back_stack_changed_listener_implementor =
+[
+    [ "FragmentManager_OnBackStackChangedListenerImplementor", "classmono_1_1android_1_1support_1_1v4_1_1app_1_1_fragment_manager___on_back_stack_changed_listener_implementor.html#a9688c97747d6cc39641cd3299ec3b5ec", null ],
+    [ "monodroidAddReference", "classmono_1_1android_1_1support_1_1v4_1_1app_1_1_fragment_manager___on_back_stack_changed_listener_implementor.html#a685912956810c558e72f6494db349d6e", null ],
+    [ "monodroidClearReferences", "classmono_1_1android_1_1support_1_1v4_1_1app_1_1_fragment_manager___on_back_stack_changed_listener_implementor.html#a4272051b3b8101262d9ec7d0aedcc515", null ],
+    [ "onBackStackChanged", "classmono_1_1android_1_1support_1_1v4_1_1app_1_1_fragment_manager___on_back_stack_changed_listener_implementor.html#aac1b73d05317d86e387f0387b87775df", null ]
+];

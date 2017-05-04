@@ -1,0 +1,150 @@
+\hypertarget{class_pinned_app_1_1_universal}{}\section{Pinned\+App.\+Universal Class Reference}
+\label{class_pinned_app_1_1_universal}\index{Pinned\+App.\+Universal@{Pinned\+App.\+Universal}}
+
+
+Collaboration diagram for Pinned\+App.\+Universal\+:
+% FIG 0
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+async Task$<$ bool $>$ \hyperlink{class_pinned_app_1_1_universal_ae5546bb53491c873008ff91b6071a167}{login\+User} (string username, string password)
+\begin{DoxyCompactList}\small\item\em sends request to log user in \end{DoxyCompactList}\item 
+async void \hyperlink{class_pinned_app_1_1_universal_a2b5a78038acf379ddeef662b1158fa7c}{create\+User} (string username, string password, string email, string first\+Name, string last\+Name)
+\begin{DoxyCompactList}\small\item\em Sends a sql request to create a user \end{DoxyCompactList}\item 
+async void \hyperlink{class_pinned_app_1_1_universal_a1140d279509d83107ee64c94c5a4f85c}{confirm\+User} (string username, string password, string email, string first\+Name, string last\+Name, string confirmation\+Code)
+\begin{DoxyCompactList}\small\item\em After user is created, confirmation code is sent to email, this send this confirmation code to finalze account \end{DoxyCompactList}\item 
+async Task$<$ List$<$ \hyperlink{class_pinned_app_1_1_pin}{Pin} $>$ $>$ \hyperlink{class_pinned_app_1_1_universal_a33520164db0cdcd36aa62f548ac88e39}{get\+Pins} (string username)
+\begin{DoxyCompactList}\small\item\em Gets all the pins related to user \end{DoxyCompactList}\item 
+async void \hyperlink{class_pinned_app_1_1_universal_a6673d2119bdb0f4e302c98ddd28de646}{create\+Pin} (string title, string desc, string longitiude, string latitude)
+\begin{DoxyCompactList}\small\item\em Creates a new pin on the map \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_pinned_app_1_1_universal_aded184a244fa656e2fba7ab1724a3a03}\label{class_pinned_app_1_1_universal_aded184a244fa656e2fba7ab1724a3a03}} 
+\hyperlink{class_pinned_app_1_1_user_session}{User\+Session} {\bfseries user}
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_pinned_app_1_1_universal_a1140d279509d83107ee64c94c5a4f85c}\label{class_pinned_app_1_1_universal_a1140d279509d83107ee64c94c5a4f85c}} 
+\index{Pinned\+App\+::\+Universal@{Pinned\+App\+::\+Universal}!confirm\+User@{confirm\+User}}
+\index{confirm\+User@{confirm\+User}!Pinned\+App\+::\+Universal@{Pinned\+App\+::\+Universal}}
+\subsubsection{\texorpdfstring{confirm\+User()}{confirmUser()}}
+{\footnotesize\ttfamily async void Pinned\+App.\+Universal.\+confirm\+User (\begin{DoxyParamCaption}\item[{string}]{username,  }\item[{string}]{password,  }\item[{string}]{email,  }\item[{string}]{first\+Name,  }\item[{string}]{last\+Name,  }\item[{string}]{confirmation\+Code }\end{DoxyParamCaption})}
+
+
+
+After user is created, confirmation code is sent to email, this send this confirmation code to finalze account 
+
+
+\begin{DoxyParams}{Parameters}
+{\em username} & \\
+\hline
+{\em password} & \\
+\hline
+{\em email} & \\
+\hline
+{\em first\+Name} & \\
+\hline
+{\em last\+Name} & \\
+\hline
+{\em confirmation\+Code} & \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+% FIG 1
+\mbox{\Hypertarget{class_pinned_app_1_1_universal_a6673d2119bdb0f4e302c98ddd28de646}\label{class_pinned_app_1_1_universal_a6673d2119bdb0f4e302c98ddd28de646}} 
+\index{Pinned\+App\+::\+Universal@{Pinned\+App\+::\+Universal}!create\+Pin@{create\+Pin}}
+\index{create\+Pin@{create\+Pin}!Pinned\+App\+::\+Universal@{Pinned\+App\+::\+Universal}}
+\subsubsection{\texorpdfstring{create\+Pin()}{createPin()}}
+{\footnotesize\ttfamily async void Pinned\+App.\+Universal.\+create\+Pin (\begin{DoxyParamCaption}\item[{string}]{title,  }\item[{string}]{desc,  }\item[{string}]{longitiude,  }\item[{string}]{latitude }\end{DoxyParamCaption})}
+
+
+
+Creates a new pin on the map 
+
+
+\begin{DoxyParams}{Parameters}
+{\em title} & \\
+\hline
+{\em desc} & \\
+\hline
+{\em longitiude} & \\
+\hline
+{\em latitude} & \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+% FIG 2
+\mbox{\Hypertarget{class_pinned_app_1_1_universal_a2b5a78038acf379ddeef662b1158fa7c}\label{class_pinned_app_1_1_universal_a2b5a78038acf379ddeef662b1158fa7c}} 
+\index{Pinned\+App\+::\+Universal@{Pinned\+App\+::\+Universal}!create\+User@{create\+User}}
+\index{create\+User@{create\+User}!Pinned\+App\+::\+Universal@{Pinned\+App\+::\+Universal}}
+\subsubsection{\texorpdfstring{create\+User()}{createUser()}}
+{\footnotesize\ttfamily async void Pinned\+App.\+Universal.\+create\+User (\begin{DoxyParamCaption}\item[{string}]{username,  }\item[{string}]{password,  }\item[{string}]{email,  }\item[{string}]{first\+Name,  }\item[{string}]{last\+Name }\end{DoxyParamCaption})}
+
+
+
+Sends a sql request to create a user 
+
+
+\begin{DoxyParams}{Parameters}
+{\em username} & \\
+\hline
+{\em password} & \\
+\hline
+{\em email} & \\
+\hline
+{\em first\+Name} & \\
+\hline
+{\em last\+Name} & \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+% FIG 3
+\mbox{\Hypertarget{class_pinned_app_1_1_universal_a33520164db0cdcd36aa62f548ac88e39}\label{class_pinned_app_1_1_universal_a33520164db0cdcd36aa62f548ac88e39}} 
+\index{Pinned\+App\+::\+Universal@{Pinned\+App\+::\+Universal}!get\+Pins@{get\+Pins}}
+\index{get\+Pins@{get\+Pins}!Pinned\+App\+::\+Universal@{Pinned\+App\+::\+Universal}}
+\subsubsection{\texorpdfstring{get\+Pins()}{getPins()}}
+{\footnotesize\ttfamily async Task$<$List$<$\hyperlink{class_pinned_app_1_1_pin}{Pin}$>$ $>$ Pinned\+App.\+Universal.\+get\+Pins (\begin{DoxyParamCaption}\item[{string}]{username }\end{DoxyParamCaption})}
+
+
+
+Gets all the pins related to user 
+
+
+\begin{DoxyParams}{Parameters}
+{\em username} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+% FIG 4
+\mbox{\Hypertarget{class_pinned_app_1_1_universal_ae5546bb53491c873008ff91b6071a167}\label{class_pinned_app_1_1_universal_ae5546bb53491c873008ff91b6071a167}} 
+\index{Pinned\+App\+::\+Universal@{Pinned\+App\+::\+Universal}!login\+User@{login\+User}}
+\index{login\+User@{login\+User}!Pinned\+App\+::\+Universal@{Pinned\+App\+::\+Universal}}
+\subsubsection{\texorpdfstring{login\+User()}{loginUser()}}
+{\footnotesize\ttfamily async Task$<$bool$>$ Pinned\+App.\+Universal.\+login\+User (\begin{DoxyParamCaption}\item[{string}]{username,  }\item[{string}]{password }\end{DoxyParamCaption})}
+
+
+
+sends request to log user in 
+
+
+\begin{DoxyParams}{Parameters}
+{\em username} & \\
+\hline
+{\em password} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+% FIG 5
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/codym/\+One\+Drive/\+Desktop/\+C\+S\+C\+I 3308/\+S\+D\+M\+T-\/\+Semester-\/\+Project/src/\+Pinned/\+Pinned\+App/\+Pinned\+App/\+Pinned\+App/Universal.\+cs\end{DoxyCompactItemize}

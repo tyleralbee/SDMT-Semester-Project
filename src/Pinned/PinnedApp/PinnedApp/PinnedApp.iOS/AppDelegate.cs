@@ -17,7 +17,12 @@ namespace PinnedApp.iOS
         UIWindow window;
         public static UIStoryboard Storyboard = UIStoryboard.FromName("Login", null);
         public static UIViewController initialViewController;
-
+        /// <summary>
+        /// After app has launched this function is ran, we intiate our storyboard here
+        /// </summary>
+        /// <param name="app"></param>
+        /// <param name="options"></param>
+        /// <returns></returns>
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
             window = new UIWindow(UIScreen.MainScreen.Bounds);

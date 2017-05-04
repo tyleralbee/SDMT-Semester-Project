@@ -8,6 +8,9 @@ using UIKit;
 
 namespace PinnedApp.iOS
 {
+    /// <summary>
+    /// This is the main page of the app, containing the map
+    /// </summary>
     public partial class HomePageViewController : UIViewController
     {
 
@@ -21,7 +24,9 @@ namespace PinnedApp.iOS
         public HomePageViewController(IntPtr handle) : base(handle)
         {
         }
-
+        /// <summary>
+        /// Sends a request to gather all the pins from the database
+        /// </summary>
         private async void GetPinList()
         {
             pinList = await functions.getPins("");
@@ -35,7 +40,13 @@ namespace PinnedApp.iOS
 
             }
         }
-
+        /// <summary>
+        /// Creates a pin on the map
+        /// </summary>
+        /// <param name="title"></param>
+        /// <param name="desc"></param>
+        /// <param name="latitude"></param>
+        /// <param name="longitude"></param>
         private void AddAnnotation(string title, string desc, string latitude, string longitude)
         {
 
@@ -46,7 +57,9 @@ namespace PinnedApp.iOS
                 Coordinate = new CLLocationCoordinate2D(Convert.ToDouble(latitude), Convert.ToDouble(longitude))
             });
         }
-
+        /// <summary>
+        /// Clears all the pins from the maps, to avoid duplicates
+        /// </summary>
         private void ClearAnnotations()
         {
             IMKAnnotation[] anonList = mapView.Annotations;
@@ -55,7 +68,10 @@ namespace PinnedApp.iOS
                 mapView.RemoveAnnotation(anon);
             }
         }
-
+        /// <summary>
+        /// Gesture method that recongnizes long pressing on map, creates a pin
+        /// </summary>
+        /// <param name="recognizer"></param>
         private void MapLongPress(UILongPressGestureRecognizer recognizer)
         {
             if (recognizer.State != UIGestureRecognizerState.Began) return;
@@ -72,7 +88,11 @@ namespace PinnedApp.iOS
             GetPinList();
 
         }
-
+        /// <summary>
+        /// Preps the next view controller before we change views
+        /// </summary>
+        /// <param name="segue"></param>
+        /// <param name="sender"></param>
         public override void PrepareForSegue(UIStoryboardSegue segue, NSObject sender)
         {
             base.PrepareForSegue(segue, sender);
@@ -83,7 +103,9 @@ namespace PinnedApp.iOS
                 transferdata.lat = pin.Latitude.ToString();
             }
         }
-
+        /// <summary>
+        /// After view controller loads this function builds the map
+        /// </summary>
         public override void ViewDidLoad()
         {
             base.ViewDidLoad();

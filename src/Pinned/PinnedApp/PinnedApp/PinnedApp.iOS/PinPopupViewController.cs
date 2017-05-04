@@ -31,6 +31,10 @@ namespace PinnedApp.iOS
             Console.WriteLine("We've unwinded");
         }
 
+        /// <summary>
+        /// Button event to take inputed pin data and create new pin in the database
+        /// </summary>
+        /// <param name="sender"></param>
         partial void BtnCreatePin_TouchUpInside(UIButton sender)
         {
 

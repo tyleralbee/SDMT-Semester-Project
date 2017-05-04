@@ -2,6 +2,9 @@
 using System.Diagnostics;
 namespace PinnedApp
 {
+    /// <summary>
+    /// Event portion of json
+    /// </summary>
 	public class Event
 	{
 		public string operation;

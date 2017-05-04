@@ -1,0 +1,7 @@
+var classmono_1_1android_1_1support_1_1design_1_1widget_1_1_navigation_view___on_navigation_item_selected_listener_implementor =
+[
+    [ "NavigationView_OnNavigationItemSelectedListenerImplementor", "classmono_1_1android_1_1support_1_1design_1_1widget_1_1_navigation_view___on_navigation_item_selected_listener_implementor.html#aca804c54dd15cf5283107869ae2d1400", null ],
+    [ "monodroidAddReference", "classmono_1_1android_1_1support_1_1design_1_1widget_1_1_navigation_view___on_navigation_item_selected_listener_implementor.html#a8bc0b14e6513bff83883d834a9db2471", null ],
+    [ "monodroidClearReferences", "classmono_1_1android_1_1support_1_1design_1_1widget_1_1_navigation_view___on_navigation_item_selected_listener_implementor.html#a5afbcfa48efc997f1eaad7b5f3018d18", null ],
+    [ "onNavigationItemSelected", "classmono_1_1android_1_1support_1_1design_1_1widget_1_1_navigation_view___on_navigation_item_selected_listener_implementor.html#a7a1944dd1ff571ff377bd69245bdf594", null ]
+];

@@ -1,0 +1,9 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node298 [label="BroadcastReceiver",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node298 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node0 [label="mono.android.Seppuku",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmono_1_1android_1_1_seppuku.html"];
+}

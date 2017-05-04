@@ -1,0 +1,108 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PinnedApp.iOS</name>
+    </assembly>
+    <members>
+        <member name="M:PinnedApp.iOS.AccountCreationViewController.BtnConfirm_TouchUpInside(UIKit.UIButton)">
+            <summary>
+            attempts to confirm user on button event
+            </summary>
+            <param name="sender"></param>
+        </member>
+        <member name="M:PinnedApp.iOS.AccountCreationViewController.BtnCreate_TouchUpInside(UIKit.UIButton)">
+            <summary>
+            attempts to create user, on this button event
+            </summary>
+            <param name="sender"></param>
+        </member>
+        <member name="T:PinnedApp.iOS.HomePageViewController">
+            <summary>
+            This is the main page of the app, containing the map
+            </summary>
+        </member>
+        <member name="M:PinnedApp.iOS.HomePageViewController.GetPinList">
+            <summary>
+            Sends a request to gather all the pins from the database
+            </summary>
+        </member>
+        <member name="M:PinnedApp.iOS.HomePageViewController.AddAnnotation(System.String,System.String,System.String,System.String)">
+            <summary>
+            Creates a pin on the map
+            </summary>
+            <param name="title"></param>
+            <param name="desc"></param>
+            <param name="latitude"></param>
+            <param name="longitude"></param>
+        </member>
+        <member name="M:PinnedApp.iOS.HomePageViewController.ClearAnnotations">
+            <summary>
+            Clears all the pins from the maps, to avoid duplicates
+            </summary>
+        </member>
+        <member name="M:PinnedApp.iOS.HomePageViewController.MapLongPress(UIKit.UILongPressGestureRecognizer)">
+            <summary>
+            Gesture method that recongnizes long pressing on map, creates a pin
+            </summary>
+            <param name="recognizer"></param>
+        </member>
+        <member name="M:PinnedApp.iOS.HomePageViewController.PrepareForSegue(UIKit.UIStoryboardSegue,Foundation.NSObject)">
+            <summary>
+            Preps the next view controller before we change views
+            </summary>
+            <param name="segue"></param>
+            <param name="sender"></param>
+        </member>
+        <member name="M:PinnedApp.iOS.HomePageViewController.ViewDidLoad">
+            <summary>
+            After view controller loads this function builds the map
+            </summary>
+        </member>
+        <member name="M:PinnedApp.iOS.HomePageViewController.MilesToLongitudeDegrees(System.Double,System.Double)">
+            <summary>
+            Converts miles to longitudinal degrees at a specified latitude
+            </summary>
+        </member>
+        <member name="F:PinnedApp.iOS.HomePageViewController.BasicMapAnnotation.coord">
+            <summary>
+            The location of the annotation
+            </summary>
+        </member>
+        <member name="P:PinnedApp.iOS.HomePageViewController.BasicMapAnnotation.Subtitle">
+            <summary>
+            The subtitle text
+            </summary>
+        </member>
+        <member name="M:PinnedApp.iOS.LoginView.LoginButton">
+            <summary>
+            This attempts to login user creditials inputed
+            </summary>
+        </member>
+        <member name="M:PinnedApp.iOS.LoginView.BtnLogin_TouchUpInside(UIKit.UIButton)">
+            <summary>
+            Button login event, launches async method LoginButton
+            </summary>
+            <param name="sender"></param>
+        </member>
+        <member name="M:PinnedApp.iOS.LoginView.BtnSignup_TouchUpInside(UIKit.UIButton)">
+            <summary>
+            Sends current view to the signup page
+            </summary>
+            <param name="sender"></param>
+        </member>
+        <member name="M:PinnedApp.iOS.AppDelegate.FinishedLaunching(UIKit.UIApplication,Foundation.NSDictionary)">
+            <summary>
+            After app has launched this function is ran, we intiate our storyboard here
+            </summary>
+            <param name="app"></param>
+            <param name="options"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PinnedApp.iOS.PinPopupViewController.BtnCreatePin_TouchUpInside(UIKit.UIButton)">
+            <summary>
+            Button event to take inputed pin data and create new pin in the database
+            </summary>
+            <param name="sender"></param>
+        </member>
+    </members>
+</doc>

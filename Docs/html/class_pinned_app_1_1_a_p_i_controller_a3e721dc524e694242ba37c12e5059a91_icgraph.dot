@@ -1,0 +1,17 @@
+digraph "PinnedApp.APIController.ExecuteAPI"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="PinnedApp.APIController.\lExecuteAPI",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="PinnedApp.Universal.loginUser",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_pinned_app_1_1_universal.html#ae5546bb53491c873008ff91b6071a167",tooltip="sends request to log user in "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="PinnedApp.Universal.createUser",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_pinned_app_1_1_universal.html#a2b5a78038acf379ddeef662b1158fa7c",tooltip="Sends a sql request to create a user "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="PinnedApp.Universal.confirmUser",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_pinned_app_1_1_universal.html#a1140d279509d83107ee64c94c5a4f85c",tooltip="After user is created, confirmation code is sent to email, this send this confirmation code to finalz..."];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="PinnedApp.Universal.getPins",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_pinned_app_1_1_universal.html#a33520164db0cdcd36aa62f548ac88e39",tooltip="Gets all the pins related to user "];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="PinnedApp.Universal.createPin",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_pinned_app_1_1_universal.html#a6673d2119bdb0f4e302c98ddd28de646",tooltip="Creates a new pin on the map "];
+}

@@ -1,0 +1,26 @@
+var namespace_pinned_app =
+[
+    [ "Droid", "namespace_pinned_app_1_1_droid.html", "namespace_pinned_app_1_1_droid" ],
+    [ "iOS", "namespace_pinned_app_1_1i_o_s.html", "namespace_pinned_app_1_1i_o_s" ],
+    [ "APIController", "class_pinned_app_1_1_a_p_i_controller.html", "class_pinned_app_1_1_a_p_i_controller" ],
+    [ "APIEnum", "class_pinned_app_1_1_a_p_i_enum.html", "class_pinned_app_1_1_a_p_i_enum" ],
+    [ "App", "class_pinned_app_1_1_app.html", "class_pinned_app_1_1_app" ],
+    [ "AuthParameters", "class_pinned_app_1_1_auth_parameters.html", "class_pinned_app_1_1_auth_parameters" ],
+    [ "createPin", "class_pinned_app_1_1create_pin.html", "class_pinned_app_1_1create_pin" ],
+    [ "DTO", "class_pinned_app_1_1_d_t_o.html", "class_pinned_app_1_1_d_t_o" ],
+    [ "Event", "class_pinned_app_1_1_event.html", "class_pinned_app_1_1_event" ],
+    [ "getPins", "class_pinned_app_1_1get_pins.html", "class_pinned_app_1_1get_pins" ],
+    [ "LoginPage", "class_pinned_app_1_1_login_page.html", "class_pinned_app_1_1_login_page" ],
+    [ "Payload", "class_pinned_app_1_1_payload.html", null ],
+    [ "Pin", "class_pinned_app_1_1_pin.html", "class_pinned_app_1_1_pin" ],
+    [ "PinsTab", "class_pinned_app_1_1_pins_tab.html", "class_pinned_app_1_1_pins_tab" ],
+    [ "TestPage", "class_pinned_app_1_1_test_page.html", "class_pinned_app_1_1_test_page" ],
+    [ "Universal", "class_pinned_app_1_1_universal.html", "class_pinned_app_1_1_universal" ],
+    [ "UserAttribute", "class_pinned_app_1_1_user_attribute.html", "class_pinned_app_1_1_user_attribute" ],
+    [ "userConfirm", "class_pinned_app_1_1user_confirm.html", "class_pinned_app_1_1user_confirm" ],
+    [ "UserCreationDTO", "class_pinned_app_1_1_user_creation_d_t_o.html", "class_pinned_app_1_1_user_creation_d_t_o" ],
+    [ "UserCreationTab", "class_pinned_app_1_1_user_creation_tab.html", "class_pinned_app_1_1_user_creation_tab" ],
+    [ "userLogin", "class_pinned_app_1_1user_login.html", "class_pinned_app_1_1user_login" ],
+    [ "UserSession", "class_pinned_app_1_1_user_session.html", "class_pinned_app_1_1_user_session" ],
+    [ "userSignup", "class_pinned_app_1_1user_signup.html", "class_pinned_app_1_1user_signup" ]
+];

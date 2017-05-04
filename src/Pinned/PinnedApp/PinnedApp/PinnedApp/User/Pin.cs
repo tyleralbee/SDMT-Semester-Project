@@ -1,6 +1,9 @@
 ﻿using System;
 namespace PinnedApp
 {
+    /// <summary>
+    /// Object to hold all the pin data comming from database
+    /// </summary>
 	public class Pin
 	{
         public string idPins;

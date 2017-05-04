@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PinnedApp</name>
+    </assembly>
+    <members>
+        <member name="M:PinnedApp.APIController.GetAPIAsync(PinnedApp.Event)">
+            <summary>
+            Sends a http request to our api
+            </summary>
+            <param name="evn"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PinnedApp.APIController.ExecuteAPI(PinnedApp.APIEnum.apiEnum,PinnedApp.DTO)">
+            <summary>
+            helper method for api request
+            </summary>
+            <param name="api"></param>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="T:PinnedApp.Event">
+            <summary>
+            Event portion of json
+            </summary>
+        </member>
+        <member name="T:PinnedApp.Payload">
+            <summary>
+            Empty class to hold payload data
+            </summary>
+        </member>
+        <member name="M:PinnedApp.Universal.loginUser(System.String,System.String)">
+            <summary>
+            sends request to log user in
+            </summary>
+            <param name="username"></param>
+            <param name="password"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PinnedApp.Universal.createUser(System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            Sends a sql request to create a user
+            </summary>
+            <param name="username"></param>
+            <param name="password"></param>
+            <param name="email"></param>
+            <param name="firstName"></param>
+            <param name="lastName"></param>
+        </member>
+        <member name="M:PinnedApp.Universal.confirmUser(System.String,System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            After user is created, confirmation code is sent to email, this send this confirmation code to finalze account
+            </summary>
+            <param name="username"></param>
+            <param name="password"></param>
+            <param name="email"></param>
+            <param name="firstName"></param>
+            <param name="lastName"></param>
+            <param name="confirmationCode"></param>
+        </member>
+        <member name="M:PinnedApp.Universal.getPins(System.String)">
+            <summary>
+            Gets all the pins related to user
+            </summary>
+            <param name="username"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PinnedApp.Universal.createPin(System.String,System.String,System.String,System.String)">
+            <summary>
+            Creates a new pin on the map
+            </summary>
+            <param name="title"></param>
+            <param name="desc"></param>
+            <param name="longitiude"></param>
+            <param name="latitude"></param>
+        </member>
+        <member name="T:PinnedApp.Pin">
+            <summary>
+            Object to hold all the pin data comming from database
+            </summary>
+        </member>
+        <member name="T:PinnedApp.UserSession">
+            <summary>
+            Holds user data after sucessfull login
+            </summary>
+        </member>
+    </members>
+</doc>

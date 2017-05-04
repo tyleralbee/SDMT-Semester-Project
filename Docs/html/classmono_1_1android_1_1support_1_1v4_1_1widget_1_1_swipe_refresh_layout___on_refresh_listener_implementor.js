@@ -1,0 +1,7 @@
+var classmono_1_1android_1_1support_1_1v4_1_1widget_1_1_swipe_refresh_layout___on_refresh_listener_implementor =
+[
+    [ "SwipeRefreshLayout_OnRefreshListenerImplementor", "classmono_1_1android_1_1support_1_1v4_1_1widget_1_1_swipe_refresh_layout___on_refresh_listener_implementor.html#ae5ee8d7d91388b8ea9bccbfba5f74438", null ],
+    [ "monodroidAddReference", "classmono_1_1android_1_1support_1_1v4_1_1widget_1_1_swipe_refresh_layout___on_refresh_listener_implementor.html#a422bf9708796c9a0bcaaec2137d8200a", null ],
+    [ "monodroidClearReferences", "classmono_1_1android_1_1support_1_1v4_1_1widget_1_1_swipe_refresh_layout___on_refresh_listener_implementor.html#a2669d5c1b40a370723a749b9aa381407", null ],
+    [ "onRefresh", "classmono_1_1android_1_1support_1_1v4_1_1widget_1_1_swipe_refresh_layout___on_refresh_listener_implementor.html#a74f3896d97f8baf7046389f758407a1c", null ]
+];
