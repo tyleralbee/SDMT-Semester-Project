@@ -23,7 +23,11 @@ namespace PinnedApp
 					return new userConfirm((UserCreationDTO)dto);
 				case APIEnum.apiEnum.UserLogin:
 					return new userLogin((UserCreationDTO)dto);
-				default:
+                case APIEnum.apiEnum.GetPins:
+                    return new getPins((UserCreationDTO)dto);
+                case APIEnum.apiEnum.CreatePin:
+                    return new createPin((UserCreationDTO)dto);
+                default:
 					Debug.WriteLine("There was an issue");
 					return null;
 			};
@@ -40,7 +44,11 @@ namespace PinnedApp
 					return "userConfirm";
 				case APIEnum.apiEnum.UserLogin:
 					return "userLogin";
-				default:
+                case APIEnum.apiEnum.GetPins:
+                        return "getPins";
+                case APIEnum.apiEnum.CreatePin:
+                        return "createPin";
+                default:
 					Debug.WriteLine("There was an issue");
 					return "Error";
 			};

@@ -6,7 +6,9 @@ namespace PinnedApp
 		public enum apiEnum {
 			UserCreation,
 			UserComfirmation,
-			UserLogin
+			UserLogin,
+            GetPins,
+            CreatePin
 		}
 	}
 }

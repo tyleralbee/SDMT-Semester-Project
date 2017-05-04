@@ -37,6 +37,13 @@ namespace PinnedApp
 			return txtConfirmation;
 		}
 
+        public string memberID = "";
+        public string title = "";
+        public string description = "";
+        public string longitude = "";
+        public string latitude = "";
+
+
 
 		public UserCreationDTO(string _txtUserName, string _txtPassword, string _txtEmail, string _txtFirstname, string _txtLastname, string _txtConfirm)
 		{

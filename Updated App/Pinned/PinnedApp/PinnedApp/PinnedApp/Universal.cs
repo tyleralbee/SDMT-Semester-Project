@@ -4,7 +4,7 @@ using Newtonsoft.Json;
 using System.Net.Http;
 using System.Diagnostics;
 using System.Threading.Tasks;
-
+using System.Collections.Generic;
 
 namespace PinnedApp
 {
@@ -53,6 +53,40 @@ namespace PinnedApp
             var json = await apiController.ExecuteAPI(APIEnum.apiEnum.UserComfirmation, dto);
 
             if (json.Contains("{}"))
+            {
+                Debug.WriteLine("Userconfirmed");
+            }
+        }
+
+        public async Task<List<Pin>> getPins(string username)
+        {
+            dto = new UserCreationDTO(null, null, null, null, null, null);
+
+            dto.memberID = "1";
+            List<Pin> pins = null;
+            var json = await apiController.ExecuteAPI(APIEnum.apiEnum.GetPins, dto);
+
+            if (json.Contains("userID"))
+            {
+               pins = JsonConvert.DeserializeObject<List<Pin>>(json);
+            }
+
+            return pins;
+        }
+
+        public async void createPin(string title, string desc, string longitiude, string latitude)
+        {
+            dto = new UserCreationDTO(null, null, null, null, null, null);
+
+            dto.memberID = "1";
+            dto.title = title;
+            dto.description = desc;
+            dto.longitude = longitiude;
+            dto.latitude = latitude;
+
+            var json = await apiController.ExecuteAPI(APIEnum.apiEnum.CreatePin, dto);
+
+            if (json.Contains("affectedRows"))
             {
                 Debug.WriteLine("Userconfirmed");
             }

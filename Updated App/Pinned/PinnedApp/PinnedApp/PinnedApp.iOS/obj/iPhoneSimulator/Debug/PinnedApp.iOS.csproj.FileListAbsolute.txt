@@ -84,6 +84,5 @@ C:\Users\codym\OneDrive\Desktop\CSCI 3308\SDMT-Semester-Project\Updated App\Pinn
 C:\Users\codym\OneDrive\Desktop\CSCI 3308\SDMT-Semester-Project\Updated App\Pinned\PinnedApp\PinnedApp\PinnedApp.iOS\obj\iPhoneSimulator\Debug\PinnedApp.iOS.exe
 C:\Users\codym\OneDrive\Desktop\CSCI 3308\SDMT-Semester-Project\Updated App\Pinned\PinnedApp\PinnedApp\PinnedApp.iOS\obj\iPhoneSimulator\Debug\PinnedApp.iOS.pdb
 C:\Users\codym\OneDrive\Desktop\CSCI 3308\SDMT-Semester-Project\Updated App\Pinned\PinnedApp\PinnedApp\PinnedApp.iOS\obj\iPhoneSimulator\Debug\optimized\IconLarge.png
-C:\Users\codym\OneDrive\Desktop\CSCI 3308\SDMT-Semester-Project\Updated App\Pinned\PinnedApp\PinnedApp\PinnedApp.iOS\bin\iPhoneSimulator\Debug\PinnedApp.dll.mdb
 C:\Users\codym\OneDrive\Desktop\CSCI 3308\SDMT-Semester-Project\Updated App\Pinned\PinnedApp\PinnedApp\PinnedApp.iOS\obj\iPhoneSimulator\Debug\PinnedApp.iOS.exe.mdb
 C:\Users\codym\OneDrive\Desktop\CSCI 3308\SDMT-Semester-Project\Updated App\Pinned\PinnedApp\PinnedApp\PinnedApp.iOS\bin\iPhoneSimulator\Debug\PinnedApp.iOS.exe.mdb

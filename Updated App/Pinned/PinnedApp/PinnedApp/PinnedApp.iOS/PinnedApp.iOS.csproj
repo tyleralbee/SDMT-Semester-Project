@@ -106,13 +106,13 @@
     <None Include="app.config" />
     <None Include="Entitlements.plist" />
     <None Include="Info.plist" />
-    <Compile Include="MapHomeView.cs" />
-    <Compile Include="MapHomeView.designer.cs">
-      <DependentUpon>MapHomeView.cs</DependentUpon>
-    </Compile>
     <Compile Include="NavigationController.cs" />
     <Compile Include="NavigationController.designer.cs">
       <DependentUpon>NavigationController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PinPopupViewController.cs" />
+    <Compile Include="PinPopupViewController.designer.cs">
+      <DependentUpon>PinPopupViewController.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <ITunesArtwork Include="iTunesArtwork" />
@@ -178,6 +178,9 @@
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\IconLarge.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="UI\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <Import Project="..\..\packages\Xamarin.Forms.2.3.4.224\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.targets" Condition="Exists('..\..\packages\Xamarin.Forms.2.3.4.224\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.targets')" />

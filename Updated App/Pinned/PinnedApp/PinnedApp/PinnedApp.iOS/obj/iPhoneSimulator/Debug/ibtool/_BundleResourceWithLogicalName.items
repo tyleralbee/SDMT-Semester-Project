@@ -17,6 +17,10 @@
       <LogicalName>Login.storyboardc/2874-view-2875.nib</LogicalName>
       <Optimize>false</Optimize>
     </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj\iPhoneSimulator\Debug\ibtool-link\Login.storyboardc\3087-view-3088.nib">
+      <LogicalName>Login.storyboardc/3087-view-3088.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
     <_BundleResourceWithLogicalName Include="obj\iPhoneSimulator\Debug\ibtool-link\Login.storyboardc\704-view-705.nib">
       <LogicalName>Login.storyboardc/704-view-705.nib</LogicalName>
       <Optimize>false</Optimize>
@@ -43,6 +47,10 @@
     </_BundleResourceWithLogicalName>
     <_BundleResourceWithLogicalName Include="obj\iPhoneSimulator\Debug\ibtool-link\Login.storyboardc\NavigationController.nib">
       <LogicalName>Login.storyboardc/NavigationController.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj\iPhoneSimulator\Debug\ibtool-link\Login.storyboardc\PinPopupViewController.nib">
+      <LogicalName>Login.storyboardc/PinPopupViewController.nib</LogicalName>
       <Optimize>false</Optimize>
     </_BundleResourceWithLogicalName>
   </ItemGroup>

@@ -44,6 +44,8 @@
     <Compile Include="AWS\JSON\Event.cs" />
     <Compile Include="AWS\JSON\Payload.cs" />
     <Compile Include="AWS\JSON\Payloads\AuthParameters.cs" />
+    <Compile Include="AWS\JSON\Payloads\createPin.cs" />
+    <Compile Include="AWS\JSON\Payloads\getPins.cs" />
     <Compile Include="AWS\JSON\Payloads\userLogin.cs" />
     <Compile Include="AWS\JSON\Payloads\userSignup\UserAttribute.cs" />
     <Compile Include="AWS\JSON\Payloads\userSignup\userConfirm.cs" />
@@ -59,6 +61,7 @@
     <Compile Include="Pages\UserLoginTab.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Universal.cs" />
+    <Compile Include="User\Pin.cs" />
     <Compile Include="User\UserSession.cs" />
   </ItemGroup>
   <ItemGroup>

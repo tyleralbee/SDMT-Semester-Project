@@ -69,21 +69,6 @@ namespace PinnedApp
 			await DisplayAlert("Alert", json, "OK");
 		}
 
-        public async void loginUserApi(string username, string password)
-        {
-            dto = new UserCreationDTO(username, password, null, null, null, null);
-            var json = await apiController.ExecuteAPI(APIEnum.apiEnum.UserLogin, dto);
-
-            if (json.Contains("RefreshToken"))
-            {
-                user = JsonConvert.DeserializeObject<UserSession>(json);
-                Debug.WriteLine("Access token: {0}", user.AccessToken);
-
-            }
-
-            await DisplayAlert("Alert", json, "OK");
-        }
-
 
         private Button buttonLoginUser()
 		{

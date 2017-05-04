@@ -18,20 +18,11 @@ namespace PinnedApp.iOS
         [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UIView HomePage { get; set; }
 
-        [Outlet]
-        [GeneratedCode ("iOS Designer", "1.0")]
-        PinnedApp.iOS.MapHomeView mapHome { get; set; }
-
         void ReleaseDesignerOutlets ()
         {
             if (HomePage != null) {
                 HomePage.Dispose ();
                 HomePage = null;
-            }
-
-            if (mapHome != null) {
-                mapHome.Dispose ();
-                mapHome = null;
             }
         }
     }

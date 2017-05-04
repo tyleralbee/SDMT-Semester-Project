@@ -66,9 +66,3 @@ C:\Users\codym\OneDrive\Desktop\CSCI 3308\SDMT-Semester-Project\Updated App\Pinn
 C:\Users\codym\OneDrive\Desktop\CSCI 3308\SDMT-Semester-Project\Updated App\Pinned\PinnedApp\PinnedApp\PinnedApp\obj\Debug\PinnedApp.pdb
 C:\Users\codym\OneDrive\Desktop\CSCI 3308\SDMT-Semester-Project\Updated App\Pinned\PinnedApp\PinnedApp\PinnedApp\obj\Debug\PinnedApp.dll.mdb
 C:\Users\codym\OneDrive\Desktop\CSCI 3308\SDMT-Semester-Project\Updated App\Pinned\PinnedApp\PinnedApp\PinnedApp\bin\Debug\PinnedApp.dll.mdb
-C:\Users\codym\OneDrive\Desktop\CSCI 3308\SDMT-Semester-Project\Updated App\Pinned\PinnedApp\PinnedApp\PinnedApp\obj\Debug\PinnedApp.dll.mdb
-C:\Users\codym\OneDrive\Desktop\CSCI 3308\SDMT-Semester-Project\Updated App\Pinned\PinnedApp\PinnedApp\PinnedApp\bin\Debug\PinnedApp.dll.mdb
-C:\Users\codym\OneDrive\Desktop\CSCI 3308\SDMT-Semester-Project\Updated App\Pinned\PinnedApp\PinnedApp\PinnedApp\obj\Debug\PinnedApp.dll.mdb
-C:\Users\codym\OneDrive\Desktop\CSCI 3308\SDMT-Semester-Project\Updated App\Pinned\PinnedApp\PinnedApp\PinnedApp\bin\Debug\PinnedApp.dll.mdb
-C:\Users\codym\OneDrive\Desktop\CSCI 3308\SDMT-Semester-Project\Updated App\Pinned\PinnedApp\PinnedApp\PinnedApp\obj\Debug\PinnedApp.dll.mdb
-C:\Users\codym\OneDrive\Desktop\CSCI 3308\SDMT-Semester-Project\Updated App\Pinned\PinnedApp\PinnedApp\PinnedApp\bin\Debug\PinnedApp.dll.mdb

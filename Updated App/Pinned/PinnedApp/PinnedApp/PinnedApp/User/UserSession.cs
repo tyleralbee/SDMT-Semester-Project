@@ -9,6 +9,7 @@ namespace PinnedApp
 		public string TokenType;
 		public string RefreshToken;
 		public string IdToken;
+
 		public UserSession(string accessToken, int expiresIn, string tokenType, string refreshToken, string idToken)
 		{
 			AccessToken = accessToken;
