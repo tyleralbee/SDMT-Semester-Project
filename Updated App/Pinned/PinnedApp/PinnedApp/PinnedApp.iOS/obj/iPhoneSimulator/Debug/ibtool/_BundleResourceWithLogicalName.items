@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <_BundleResourceWithLogicalName Include="obj\iPhoneSimulator\Debug\ibtool\Login.storyboardc\704-view-705.nib">
+      <LogicalName>Login.storyboardc/704-view-705.nib</LogicalName>
+      <InterfaceDefinition>Login.storyboard</InterfaceDefinition>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj\iPhoneSimulator\Debug\ibtool\Login.storyboardc\874-view-875.nib">
+      <LogicalName>Login.storyboardc/874-view-875.nib</LogicalName>
+      <InterfaceDefinition>Login.storyboard</InterfaceDefinition>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj\iPhoneSimulator\Debug\ibtool\Login.storyboardc\AccountCreationViewController.nib">
+      <LogicalName>Login.storyboardc/AccountCreationViewController.nib</LogicalName>
+      <InterfaceDefinition>Login.storyboard</InterfaceDefinition>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj\iPhoneSimulator\Debug\ibtool\Login.storyboardc\Info.plist">
+      <LogicalName>Login.storyboardc/Info.plist</LogicalName>
+      <InterfaceDefinition>Login.storyboard</InterfaceDefinition>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj\iPhoneSimulator\Debug\ibtool\Login.storyboardc\LoginView.nib">
+      <LogicalName>Login.storyboardc/LoginView.nib</LogicalName>
+      <InterfaceDefinition>Login.storyboard</InterfaceDefinition>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+  </ItemGroup>
+</Project>
