@@ -33,6 +33,7 @@ namespace PinnedApp.iOS
         partial void BtnConfirm_TouchUpInside(UIButton sender)
         {
             login.confirmUser(txtSignupUsername.Text, txtSignupPassword.Text, txtSignupEmail.Text, txtSignupFirstname.Text, txtSignupLastname.Text, txtSignupConfirm.Text);
-        }
+            DismissViewController(true, null);
+		}
     }
 }

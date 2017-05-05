@@ -9,6 +9,7 @@ namespace PinnedApp.iOS
         Universal univ;
         public string longi;
         public string lat;
+		public HomePageViewController homepage;
 
 
         public PinPopupViewController(IntPtr handle) : base(handle)
@@ -41,6 +42,7 @@ namespace PinnedApp.iOS
             univ = new Universal();
             univ.createPin(txtTitle.Text, txtDescription.Text, txtLongitude.Text, txtLatitude.Text);
             DismissViewController(true, null);
+			homepage.AddAnnotation(txtTitle.Text, txtDescription.Text, txtLatitude.Text, txtLongitude.Text);
         }
     }
 }

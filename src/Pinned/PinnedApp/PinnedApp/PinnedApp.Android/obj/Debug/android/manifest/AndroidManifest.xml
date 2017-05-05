@@ -6,7 +6,7 @@
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
   <application android:label="PinnedApp.Android" android:name="android.app.Application" android:allowBackup="true" android:icon="@drawable/icon" android:debuggable="true">
-    <activity android:configChanges="orientation|screenSize" android:icon="@drawable/icon" android:label="PinnedApp" android:theme="@style/MainTheme" android:name="md56b83ce97f718b17a80c212f13415170e.MainActivity">
+    <activity android:configChanges="orientation|screenSize" android:icon="@drawable/icon" android:label="PinnedApp.Droid" android:theme="@style/MyTheme" android:name="md56b83ce97f718b17a80c212f13415170e.MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />

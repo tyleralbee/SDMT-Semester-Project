@@ -47,7 +47,7 @@ namespace PinnedApp.iOS
         /// <param name="desc"></param>
         /// <param name="latitude"></param>
         /// <param name="longitude"></param>
-        private void AddAnnotation(string title, string desc, string latitude, string longitude)
+        public void AddAnnotation(string title, string desc, string latitude, string longitude)
         {
 
             mapView.AddAnnotations(new MKPointAnnotation()
@@ -101,6 +101,7 @@ namespace PinnedApp.iOS
             {
                 transferdata.longi = pin.Longitude.ToString();
                 transferdata.lat = pin.Latitude.ToString();
+				transferdata.homepage = this;
             }
         }
         /// <summary>

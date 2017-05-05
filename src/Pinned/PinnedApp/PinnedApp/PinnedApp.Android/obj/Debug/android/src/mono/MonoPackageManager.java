@@ -110,8 +110,8 @@ class MonoPackageManager_Resources {
 		"Xamarin.Android.Support.v7.RecyclerView.dll",
 		"Xamarin.Android.Support.Vector.Drawable.dll",
 		"Xamarin.Forms.Core.dll",
-		"Xamarin.Forms.Platform.Android.dll",
 		"Xamarin.Forms.Platform.dll",
+		"Xamarin.Forms.Platform.Android.dll",
 		"Xamarin.Forms.Xaml.dll",
 		"PinnedApp.dll",
 		"Xamarin.Forms.GoogleMaps.dll",
@@ -120,5 +120,5 @@ class MonoPackageManager_Resources {
 	};
 	public static final String[] Dependencies = new String[]{
 	};
-	public static final String ApiPackageName = "Mono.Android.Platform.ApiLevel_23";
+	public static final String ApiPackageName = "Mono.Android.Platform.ApiLevel_25";
 }

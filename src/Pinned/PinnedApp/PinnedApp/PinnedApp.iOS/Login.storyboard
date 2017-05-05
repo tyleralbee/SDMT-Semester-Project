@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="704">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
@@ -48,7 +48,7 @@
                                 </state>
                                 <connections>
                                     <action selector="BtnSignup_TouchUpInside:" destination="704" id="1063" eventType="touchUpInside"/>
-                                    <segue id="2869" destination="874" kind="show" identifier="SegueSignup"/>
+                                    <segue id="2869" destination="874" kind="presentation" identifier="SegueSignup"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="862" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" placeholder="Password" text="Password1">
@@ -65,8 +65,8 @@
                                 <rect key="frame" x="57" y="86" width="240" height="128"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="1226" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" image="PinnedBanner.png">
-                                <rect key="frame" x="66" y="79" width="240" height="128"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="3764" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" image="PinnedBanner.png">
+                                <rect key="frame" x="68" y="86" width="240" height="128"/>
                             </imageView>
                         </subviews>
                         <variation key="default">
@@ -292,8 +292,8 @@
         <image name="Icon-76.png" width="76" height="76"/>
         <image name="Icon-Small-40.png" width="40" height="40"/>
         <image name="Icon-Small.png" width="29" height="29"/>
-        <image name="PinnedBanner.png" width="5100" height="3300"/>
-        <image name="IconLarge.png" width="1705" height="1673"/>
+        <image name="PinnedBanner.png" width="5100" height="2793"/>
+        <image name="IconLarge.png" width="512" height="502"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedScreenMetrics key="destination" type="retina47"/>

@@ -52,5 +52,9 @@
 	<string>You are about to use location!</string>
 	<key>NSLocationAlwaysUsageDescription</key>
 	<string>This will be called if location is used behind the scenes</string>
+	<key>CFBundleName</key>
+	<string>PinnedApp</string>
+	<key>UIMainStoryboardFile</key>
+	<string>Login</string>
 </dict>
 </plist>

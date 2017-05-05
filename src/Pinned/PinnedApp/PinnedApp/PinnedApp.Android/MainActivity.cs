@@ -8,9 +8,9 @@ using Android.Views;
 using Android.Widget;
 using Android.OS;
 
-namespace Pinned.Droid
+namespace PinnedApp.Droid
 {
-	[Activity(Label = "Pinned.Droid", Icon = "@drawable/icon", Theme = "@style/MyTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
+	[Activity(Label = "PinnedApp.Droid", Icon = "@drawable/icon", Theme = "@style/MyTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
 	public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity
 	{
 		protected override void OnCreate(Bundle bundle)
@@ -21,9 +21,9 @@ namespace Pinned.Droid
             //LoginResource = Resource.Layout.Login;
 
             base.OnCreate(bundle);
-            SetContentView(Resource.Layout.Login);
+            SetContentView(Resource.Layout.Tabbar);
 
-            Button button = FindViewById<Button>(Resource.Id.Login);
+//Button button = FindViewById<Button>(Resource.Id.Login);
 
 
 
